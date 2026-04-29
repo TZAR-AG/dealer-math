@@ -1,8 +1,16 @@
 # AU Dealer Math — YouTube channel config
 
+## LIVE CHANNEL (created 2026-04-29)
+
+- **Channel URL:** https://www.youtube.com/@audealermath
+- **Channel ID:** UCQkgMP50xK86Y3X0Z74ikzw
+- **Handle:** @audealermath (claimed, locked)
+- **Brand Account admin:** agcapitalwa@gmail.com
+- **Created:** 2026-04-29
+
 | Setting | Value |
 |---|---|
-| Handle | `@audealermath` (verify availability — fallback `@audealermathau` or `@aussiedealermath`) |
+| Handle | `@audealermath` ✅ claimed |
 | Country | Australia |
 | Category | **Education** (LOCKED — do not change) |
 | Tagline | Run the numbers. Walk in fluent. |
