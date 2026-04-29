@@ -187,7 +187,7 @@ async function main() {
     console.log('No pronunciation dict (set ELEVENLABS_AUDM_DICT_ID + _VERSION in .env)');
   }
   console.log('Stitching: previous_text + next_text + previous_request_ids ON');
-  console.log('Output format: mp3_44100_192 (192kbps)');
+  console.log('Output format: default mp3_44100_128 (128kbps — Starter tier; 192kbps requires Creator)');
   console.log('Text normalization: ON · seed: 42424242+i');
   console.log('---');
 
