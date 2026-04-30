@@ -1,5 +1,47 @@
 # AU Dealer Math SaaS stack
 
+## Per-task SaaS map (LOCKED 2026-04-30, post V1 ship)
+
+What tool is used for what task across the V1-V12 production pipeline. **NB Pro NOT on this list — V1 shipped without it; V2-V12 don't need it.**
+
+| Production task | Tool / approach | Cost incremental | Notes |
+|---|---|---|---|
+| Script writing | Claude / manual | $0 | Adrian-driven; reference content/au-dealer-math/scripts/ |
+| Voiceover generation | **ElevenLabs** (Paul voice, locked settings) | $0 (in stack) | regenerate-vo.js · stitching DISABLED · seed=42424242+i |
+| VO master concat | **ffmpeg `acrossfade`** (local) | $0 | build-master-vo.py · 200ms tri crossfades · ONE master VO file |
+| AI image generation (stills + thumbnail backgrounds) | **MidJourney v7** | $0 (in stack) | engineered prompts at saas-prompts/midjourney.md |
+| AI video generation (motion clips of stills) | **Kling 3.0** | $0 (in stack) | 5s motion clips of selected MJ stills |
+| Stock B-roll / motion (when AI insufficient) | **Storyblocks All-Access** | $0 (in stack) | $100/mo · download under license |
+| Music bed | **Storyblocks All-Access** | $0 (in stack) | Pre-ducked + looped via ffmpeg crossfade |
+| Ken Burns animation on stills | **ffmpeg `zoompan`** (local) | $0 | 4× lanczos pre-scale anti-shake · bake-stills.py templates |
+| Video editing / timeline assembly | **DaVinci Resolve 20 Free** | $0 | Py3 console scripting · build-v0X-davinci.py |
+| Video export | **DaVinci Deliver** (scripted) | $0 | render-v1-davinci.py · YouTube 1080p preset · MarkIn/Out override |
+| Captions (long-form) | **YouTube auto-CC** | $0 | Adrian rejected Submagic for AUDM long-form |
+| Captions (Shorts) | YouTube auto-CC OR **Submagic** (already in stack for SS) | $0 | Submagic already paid for SS — reuse for AUDM Shorts if kinetic captions desired |
+| Channel banner PNG | **Python + PIL** (generate-channel-banner.py) | $0 | 2560×1440 · brand colors locked · DM Sans Bold |
+| Channel logo / watermark | **Python + PIL** (generate-channel-logo.py) | $0 | AUDM monogram · 800×800 master + 150×150 watermark |
+| Thumbnail base imagery | **MidJourney v7** | $0 (in stack) | 16:9 · style raw · 4 variants per video |
+| Thumbnail composite + text | **Python + PIL** (thumbnail-engine.py) | $0 | 3 locked templates: Big-Number / Comparison / Document Forensics |
+| Thumbnail A/B testing | **YouTube Studio native** | $0 | Free, supports 3 variants/video · 2.3× CTR uplift documented (Thumbify 2026) |
+| Shorts cuts | **ffmpeg** (render-v1-shorts.py) | $0 | Centre-crop 16:9 → blur-pad 9:16 + burnt-in caption + CTA overlay |
+| Lead magnet PDF generation | **Node + Puppeteer** (generator/au-dealer-math/build-lead-magnet.js) | $0 | HTML→PDF · 7-lines cheatsheet |
+| **Lead magnet hosting** | **Kit landing page** | $0 (in SS stack) | NOT Stan, NOT Vercel — Kit's tag+sequence is optimal for free PDF in education niche (Embeddable 2026) |
+| Email nurture sequence | **Kit** (in SS stack) | $0 | content/au-dealer-math/kit-nurture-sequence.md |
+| Cross-platform scheduling | **Blotato** (in SS stack) for IG/TikTok cross-post; **YouTube Studio** native for YT | $0 | Native uploads only — no auto-cross-share |
+| YouTube SEO optimization | **TubeBuddy Pro** | $0 (in stack) | Tag Explorer · Best Practices audit · A/B test |
+| YouTube analytics | **YouTube Studio** + **TubeBuddy Channelytics** | $0 | Realtime + retention curves · most-replayed graph |
+| YouTube comment management | **YouTube Studio** native | $0 | Reply within 2 hrs first 48 hrs (15-20% reach lift documented) |
+| Pronunciation dictionary | **In-script phonetic respelling** (NOT ElevenLabs PD — Pro tier only) | $0 | Phonetic respelling in script text instead of API attachment |
+
+## NB Pro decision (LOCKED 2026-04-30)
+
+Nano Banana Pro is **NOT in the AUDM stack**. Adrian was out of credits when V1 shipped — V1 shipped fine without it via MJ + Python+PIL. Per 2026 research (NightCafe, SpectrumAI):
+
+- NB Pro's strength = single-shot photorealism + text-in-image consistency
+- AUDM's need = LOCKED brand typography + repeatable layout = OPPOSITE
+- "Language-driven Photoshop" framing argues AGAINST NB Pro for branded series production
+- For one-off SS hero images later, MAY revisit upgrade. Not for AUDM V1-V12.
+
 ## Recurring monthly subscriptions — LOCKED 2026-04-29
 
 **All 7 tools confirmed monthly recurring (no annual prepays).** Adrian verified 2026-04-29.

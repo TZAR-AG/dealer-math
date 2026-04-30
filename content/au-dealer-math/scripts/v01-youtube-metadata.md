@@ -25,17 +25,17 @@ Free cheatsheet — "7 Lines on a Dealer Contract You Should Never Sign":
 
 ⏱️ Chapters:
 0:00 — The question that ends the deal
-0:15 — Who I am
-1:00 — The question itself
-2:30 — The loan-term-extension trick
-4:30 — Why the dealer plays this game
-6:00 — The two-sentence fix
-7:30 — Coming next + lead magnet
+0:20 — Who I am
+0:53 — The question itself
+2:27 — The loan-term-extension trick
+4:40 — Why the dealer plays this game
+7:17 — The two-sentence fix
+9:36 — Sign-off
 
-📍 Hosted by Macca. New explainers every Mon / Wed / Fri 6pm AWST.
+📍 Hosted by Mac on AU Dealer Math.
 
 Got a make/model you're shopping for? Drop it in the comments — I'll
-prioritise it for next week.
+prioritise it for the next video.
 
 ———
 
@@ -67,7 +67,7 @@ new car buying tips, car loan trap, finance dealer trick, macca dealer math
 ## Pinned comment (post immediately on publish)
 
 ```
-G'day. Macca here.
+G'day. Mac here.
 
 If you want the cheatsheet that lists every question to dodge at a 
 dealership, every line to never sign, and the actual math behind dealer 
@@ -76,7 +76,7 @@ finance — grab it free at audealermath.com.au/cheatsheet.
 Drop the make/model you're shopping for in the replies and I'll prioritise 
 it for next week's video.
 
-— Macca
+— Mac
 ```
 
 ---
@@ -91,15 +91,17 @@ it for next week's video.
 
 ---
 
-## On-screen text overlays (Submagic + manual editor)
+## On-screen text overlays (Whisper-timestamped, baked into V1 render)
 
-Every dollar figure burnt into frame:
-- **0:05** — `$300 / WEEK` (yellow over charcoal background)
-- **2:35** — `$300/wk × 4yr = $62,400`
-- **2:45** — `$300/wk × 7yr = $109,200`
-- **3:00** — `$46,800 MORE` (outback orange, bold callout)
-- **5:30** — `LOAN TERM = DEALER PROFIT` (slogan-style)
-- **6:30** — Two-sentence fix on-screen, larger than VO text
+Burnt into V2 video track via `build-v1-davinci.py` OVERLAYS. Positioned in
+upper-third so Submagic captions sit at bottom undisturbed.
+- **0:02.5** — `$300/WEEK` (yellow #FFD700, 280pt)
+- **2:50** — `4 YEARS = $62,400` (white)
+- **2:54** — `7 YEARS = $109,200` (white)
+- **2:58** — `$46,800 MORE` (yellow emphasis, 200pt)
+- **6:03** — `$1,500-$3,000 RETAIL` (white, aftercare package)
+- **6:09** — `$500 DEALER COST` (red, dealer cost on package)
+- **6:11** — `$1,000-$2,500 GROSS` (green, dealer margin per attach)
 
 ---
 

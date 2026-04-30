@@ -7,7 +7,43 @@
 
 ---
 
-## Locked parameter recipe (paste-ready tail)
+## ⚠ Upscale before download (LOCKED 2026-04-29)
+
+**Default MJ web output is 1456×816** — below 1080p height. Without upscaling, Ken Burns zoom (105-108%) on a 1080p timeline pixellates visibly.
+
+**SOP:** every AUDM generation → click **Upscale Subtle** (NOT Creative) → wait ~15-30 sec → Download upscaled. Subtle preserves documentary aesthetic; Creative adds texture/detail that drifts palette.
+
+**Result:** 2912×1632 native, ~2× crisper at 1080p timeline display, headroom for zoom + crop.
+
+**Cost:** ~1 credit per upscale on MJ Standard's quota — trivial.
+
+---
+
+## ⚠ MJ web vs Discord — different syntax (LOCKED 2026-04-29)
+
+**Adrian uses MJ web (midjourney.com/imagine), NOT Discord.** MJ web does NOT accept inline flag syntax like `--ar 16:9` or `--style raw` or `--no [list]`. Those throw "flag not supported" errors.
+
+**MJ web equivalents:**
+
+| Discord flag | MJ web equivalent |
+|---|---|
+| `--ar 16:9` | Click "16:9" in Aspect Ratio panel |
+| `--style raw` | Toggle "Style: Raw" in settings drawer |
+| `--s 80` | Scale slider ~80 (Stylize equivalent) |
+| `--v 7` | Version selector — set to v7 |
+| `--chaos 0` | Variation Mode → Off (or 0) |
+| `--no [list]` | "Exclude these" / "Things to avoid" field |
+| `--sref [URL]` | Style Reference upload — drag URL or upload file |
+| `--sw 200` | Style weight slider (if exposed) |
+
+**SOP for AUDM in MJ web:**
+1. Paste the prompt body (NO flags) into the prompt textarea
+2. Right panel: Aspect Ratio → click `16:9`
+3. Settings drawer: Style → Raw · Scale → 80 · Version → v7 · Variation Mode → Off
+4. Exclude field: paste the negative prompt list
+5. Click Submit
+
+## Locked parameter recipe — Discord (kept for reference)
 
 ```
 --style raw --v 7 --ar 16:9 --s 80 --chaos 0 --sref [PALETTE_SWATCH_URL] --sw 200 --no text, watermark, logo, signature, typography, words, letters, captions, brand names, dealership signs, cartoon, illustration, 3D render, CGI, plastic skin, hyperdetailed
@@ -72,6 +108,30 @@
 ## Banned phrases (pull toward luxury ad / stock product)
 
 `professional`, `commercial photography`, `advertisement`, `studio lighting`, `4K UHD`, `octane render`, `Unreal Engine`, `hyperdetailed`, `8K`, `cinematic` (paradoxically — too generic; replace with named cinematographer), `epic`, `masterpiece`, `beautiful lighting`, `dramatic`
+
+---
+
+## Office desk standard (LOCKED 2026-04-29)
+
+**AUDM dealership desks are office desks, NEVER wood/rustic/workshop.** First V1 batch had 50% drift to wood-desk / workshop-bench because "charcoal office desk" alone didn't lock the surface — MJ pulls hard toward "manila binder + worn wood desk + ceramic mug" rustic priors.
+
+**Locked phrasing for ANY desk-involving prompt:** `modern dark grey laminate office desk` (preferred) or `charcoal melamine executive desk surface` (alternative).
+
+**Add to negative prompt for ALL desk shots:**
+```
+--no wood texture, wooden desk, rustic, workshop, toolboxes, garage bench, farmhouse, vintage cabin, knotted wood, ceramic mug
+```
+
+Need positive (modern laminate) AND negative (wood / workshop / rustic mug props) to cancel both directional priors.
+
+## Diagram language (LOCKED 2026-04-29)
+
+**MJ takes "branching tree diagram" literally as a botanical tree.** Locked phrasing for ANY flowchart/schematic prompt:
+
+- ✅ Use: `"stylized flowchart with arrows splitting from a central node"`, `"schematic flow diagram with three connected boxes"`, `"hand-drawn process diagram with arrows"`
+- ❌ Avoid: `"branching tree diagram"`, `"tree of nodes"`, `"network diagram"` — all pull toward botanical/organic tree
+
+**Add to negative prompt for diagram shots:** `--no botanical tree, plant, branches, leaves, organic tree`
 
 ---
 

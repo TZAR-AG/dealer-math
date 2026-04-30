@@ -36,7 +36,7 @@
 
 *Visual: stylised dealership floor scene, top-down view, Macca silhouette walking past rows of cars. Charcoal palette with outback orange accent.*
 
-> I'm Mack-uh.
+> I'm Mac.
 >
 > I spent the better part of a decade selling new cars across Australia. Started on the floor at a Japanese mass-market brand. Moved to a European luxury brand. Sat in every chair from sales executive to general manager.
 >
@@ -132,11 +132,11 @@
 >
 > But here's what most buyers genuinely don't know. There isn't one office behind the salesperson. There are two.
 >
-> After the metal price gets agreed, the customer doesn't go straight to finance. They go to the aftercare manager first. Paint protection, window tint, dash cameras, interior protection. The retail price on a paint protection plan is two thousand dollars. The dealer's cost is around five hundred. That's a fifteen-hundred-dollar gross on a single attach, and the industry's standard attach rate is sixty to eighty per cent.
+> After the metal price gets agreed, the customer doesn't go straight to finance. They go to the aftercare manager first. Paint protection, window tint, dash cameras, interior protection — these get packaged together. The retail on the package can sit anywhere from fifteen hundred to three thousand dollars depending on the dealership and how it gets bundled. The dealer's cost on the whole package is up to five hundred. That's a one-thousand to twenty-five-hundred-dollar gross on a single attach, and the industry's standard attach rate is sixty to eighty per cent. The aftercare manager's job is to package it up in the way that pulls the most margin per customer — framed to the buyer as the most value, framed to the dealership as the most gross.
 >
 > Then they go to the finance manager. That's where the loan gets written and the rate gets marked up. The bank approves the customer at one rate; the contract gets written at a higher one. The spread, multiplied across the loan term, is dealer commission.
 >
-> And there's a layer the salesperson on the floor can't see, called the holdback. Even when the dealer tells the customer *"we can't go any lower"* — they've still got around a thousand dollars on a mass-market sedan, more on luxury, paid by the manufacturer at the end of the quarter. Plus volume rebates. On the Chinese-brand store I worked at last, the manufacturer paid the dealership about thirty thousand dollars back on a three-hundred-and-fifty-thousand-dollar wholesale buy. That's just where I worked and how it happened, but I could be wrong about specific brands.
+> And there's a layer the salesperson on the floor can't see, called the holdback. Even when the dealer tells the customer *"we can't go any lower"* — there's still a margin paid by the manufacturer at the end of the quarter. Plus volume rebates that scale with how much wholesale stock the dealership takes on. The exact figures vary by brand and quarter, but the structure is universal.
 >
 > The customer thinks they're negotiating with one person. They're negotiating against three commissioned salespeople in sequence — and the dealership's biggest revenue lines aren't even on the table.
 
@@ -166,7 +166,7 @@
 >
 > First, if you're financing — bring real bank pre-approval. Not an estimate. A signed letter from your bank with the rate, the term, and the total cost of the loan in writing. When the finance manager opens with their rate, hand them the letter. Make them beat the total cost of the loan, including all fees, on paper. Their first move will be to point at a small fee on your bank's letter and say *"the bank charges that, we don't."* Hold the line. Total cost over the full term, all fees included, both papers side by side. That's the only fair comparison.
 >
-> Second, time it. A few times a year, the manufacturer subsidises a low rate — one-point-nine-nine per cent, four-point-nine per cent, that kind of thing. When a manufacturer fixed-rate campaign is on, the dealer makes a small flat fee instead of a rate spread. Their incentive flips from extracting margin to closing the volume bonus. That's the cleanest finance deal a dealership will ever offer you. If a campaign is running and you're ready to buy, that's the window.
+> Second, time it. A few times a year, the manufacturer runs a subsidised low-rate finance campaign. The exact rate varies by brand and quarter — but when one of these campaigns is on, the dealer makes a small flat fee instead of a rate spread. Their incentive flips from extracting margin to closing the volume bonus. That's the cleanest finance deal a dealership will ever offer you. If a campaign is running and you're ready to buy, that's the window.
 >
 > Get the price first. Bring the bank letter. Time the rate campaign. Three moves. None of them require any maths the dealer didn't already do for you.
 
@@ -176,13 +176,13 @@
 
 *Visual: end card setup. Macca silhouette + lead-magnet PDF visual + URL on screen. Subscribe button overlay (right). "Most recent upload" element (left, will loop to V1 itself until V2 ships).*
 
-> Next week I'll cover what actually happens in the finance manager's office — the commission structure, the pressure tactics, and the products they'll try to add on once the metal's signed.
+> Stay tuned for the next video.
 >
 > If you want the full cheatsheet — the seven lines on a dealer contract you should never sign — link in the description. Free. No catch.
 >
-> I'm Mack-uh. New videos every Monday, Wednesday and Friday on AU Dealer Math.
+> I'm Mac and thanks for watching A.U... Dealer Math.
 
-**Note 2026-04-29:** sign-off updated. Phonetic spelling "Mack-uh" (not "Macca") used in render scripts so ElevenLabs Paul voice pronounces it as AU slang `MAK-uh`. Cadence claim updated from "every morning" to specific Monday/Wednesday/Friday to match locked 3/wk cadence per `channel-config.md`.
+**Note 2026-04-30:** sign-off updated. Removed both the specific next-video preview ("next week I'll cover finance manager office") and the cadence claim ("every Monday/Wednesday/Friday"). Both were over-promising for a brand-new channel — better to under-promise + over-deliver. Handle iterated through Mack-uh → Macka → Meckuh and finally LOCKED to "Mac" — short, clean, no pronunciation ambiguity. Sign-off pause: "A.U..." spells out letters individually with ellipsis-driven pause before "Dealer Math". **Updated again 2026-04-30 evening:** sign-off reordered from "I'm Mac... on A.U. Dealer Math. Thanks for watching." to "I'm Mac and thanks for watching A.U... Dealer Math." — Adrian's call: lands the channel name on the closing beat instead of "thanks for watching."
 
 *[Hold end screen 15 seconds. No music tail.]*
 

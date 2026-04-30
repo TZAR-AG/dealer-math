@@ -32,11 +32,11 @@ if (!API_KEY) {
 const VOICE_ID = 'WLKp2jV6nrS8aMkPPDRO'; // Paul — locked Macca voice
 const MODEL_ID = 'eleven_multilingual_v2';
 const VOICE_SETTINGS = {
-  stability: 0.40,
+  stability: 0.55, // Bumped from 0.40 (2026-04-30) — reduces stutter/glitch artifacts on long scenes
   similarity_boost: 0.75,
   style: 0.25,
   use_speaker_boost: true,
-  speed: 0.90, // Adrian's pick after A/B (0.85 dragged, 0.92 too close to original) — middle ground at ~290 wpm
+  speed: 0.95, // Bumped from 0.90 (2026-04-30) — Adrian wanted slightly faster pacing
 };
 
 const SCRIPT_PATH = path.resolve(
@@ -135,9 +135,13 @@ async function renderScene(text, outPath, ctx) {
     voice_settings: VOICE_SETTINGS,
     apply_text_normalization: 'on',  // forces $46,000 → "forty-six thousand dollars"
     seed: 42424242 + (ctx?.sceneIndex || 0),  // deterministic per-scene reproducibility
-    previous_text: ctx?.prevText || null,  // last ~200 chars of prior scene — locks tone continuity
-    next_text: ctx?.nextText || null,  // first ~200 chars of next scene — locks forward continuity
-    previous_request_ids: ctx?.prevReqId ? [ctx.prevReqId] : [],  // request stitching, valid 2 hours
+    // Stitching DISABLED 2026-04-30: previous_text/next_text caused audible
+    // artifacts at scene boundaries — trailing silence at end (model expecting
+    // continuation) and truncated first word at start (model assuming prior
+    // context). Each scene now renders standalone with full open/close.
+    previous_text: null,
+    next_text: null,
+    previous_request_ids: [],
   };
   if (PRONUNCIATION_DICT_ID && PRONUNCIATION_DICT_VERSION) {
     body.pronunciation_dictionary_locators = [{
