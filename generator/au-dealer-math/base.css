@@ -16,10 +16,12 @@ body {
 .page {
   width: 210mm;
   height: 297mm;
-  padding: 24mm 20mm;
+  padding: 22mm 20mm;
   page-break-after: always;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 h1 {
@@ -37,19 +39,22 @@ h2 {
   font-size: 18pt;
   color: var(--heading);
   margin: 0 0 8pt 0;
+  line-height: 1.2;
 }
 
 h3 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: 14pt;
+  font-size: 12pt;
   color: var(--accent);
-  margin: 0 0 6pt 0;
+  margin: 0 0 4pt 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 p {
-  font-size: 11pt;
-  line-height: 1.6;
+  font-size: 10.5pt;
+  line-height: 1.5;
   margin: 0 0 8pt 0;
 }
 
@@ -60,22 +65,22 @@ p {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   color: var(--accent);
-  margin: 0 0 16pt 0;
+  margin: 0 0 12pt 0;
 }
 
 .line-number {
   font-family: 'Fraunces', serif;
   font-style: italic;
-  font-size: 60pt;
+  font-size: 56pt;
   color: var(--accent);
   line-height: 1;
-  margin: 0 0 12pt 0;
+  margin: 0 0 6pt 0;
 }
 
 .label-block {
   border-left: 3pt solid var(--accent);
   padding-left: 12pt;
-  margin: 12pt 0;
+  margin: 10pt 0;
 }
 
 .label-block h3 {
@@ -84,5 +89,92 @@ p {
 
 .label-block p {
   font-size: 10pt;
-  margin: 0;
+  margin: 0 0 6pt 0;
+}
+
+.label-block ul {
+  margin: 4pt 0 6pt 0;
+  padding-left: 16pt;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+
+.label-block li {
+  margin-bottom: 2pt;
+}
+
+.label-block strong {
+  color: var(--heading);
+}
+
+.cta-quote {
+  background: rgba(209, 122, 61, 0.08);
+  border-left: 3pt solid var(--accent);
+  padding: 10pt 12pt;
+  margin: 14pt 0 0 0;
+  font-size: 9.5pt;
+  line-height: 1.5;
+  color: var(--heading);
+}
+
+.cta-quote strong {
+  color: var(--accent);
+}
+
+.signoff {
+  margin-top: auto;
+  font-style: italic;
+  color: var(--accent);
+  font-size: 11pt;
+}
+
+.parenthetical {
+  font-size: 9.5pt;
+  font-style: italic;
+  color: var(--body);
+  margin: -6pt 0 10pt 0;
+  opacity: 0.85;
+}
+
+.intro-page p {
+  font-size: 11.5pt;
+  line-height: 1.6;
+  margin: 0 0 10pt 0;
+}
+
+.cta-list {
+  margin: 0 0 10pt 0;
+  padding-left: 16pt;
+  font-size: 10.5pt;
+  line-height: 1.55;
+}
+
+.cta-list li {
+  margin-bottom: 4pt;
+}
+
+.moves-list {
+  margin: 8pt 0 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.moves-list li {
+  margin-bottom: 8pt;
+  font-size: 10pt;
+  line-height: 1.5;
+  padding-left: 14pt;
+  position: relative;
+}
+
+.moves-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.moves-list strong {
+  color: var(--heading);
 }

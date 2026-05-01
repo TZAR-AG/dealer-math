@@ -7,7 +7,8 @@ const line4 = require('./06-line-4');
 const line5 = require('./07-line-5');
 const line6 = require('./08-line-6');
 const line7 = require('./09-line-7');
-const cta = require('./10-cta');
+const movesNotCovered = require('./10-moves-not-covered');
+const cta = require('./11-cta');
 
 function renderAllPages(theme) {
   return [
@@ -20,6 +21,7 @@ function renderAllPages(theme) {
     line5.render(theme),
     line6.render(theme),
     line7.render(theme),
+    movesNotCovered.render(theme),
     cta.render(theme),
   ].join('\n');
 }

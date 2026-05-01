@@ -68,12 +68,22 @@
 
 ## Build the AUDM palette swatch (one-time, then reuse forever)
 
-1. Create a 1024×1024 PNG with three flat horizontal bars: `#2B2B2B` (top), `#FAF7F2` (middle), `#C8612C` (bottom). NO text.
-2. Host on Imgur or any permanent CDN (NOT Discord — Discord URLs expire).
-3. Lock the URL in `content/au-dealer-math/saas-prompts/_assets/palette-swatch-url.txt`.
-4. Use that URL as `--sref` in every AUDM Midjourney prompt.
+**Palette LOCKED per [.claude/rules/design-system-audm.md](../../../.claude/rules/design-system-audm.md):**
+- `#2B2B2B` (top — Charcoal)
+- `#F5EFE6` (middle — Cream)
+- `#D17A3D` (bottom — Outback Orange)
 
-**File:** `content/au-dealer-math/saas-prompts/_assets/audm-palette-swatch.png` (TODO — build this once)
+**Build:** `python3 generator/au-dealer-math/generate-palette-swatch.py` — emits the 1024×1024 PNG with no text.
+
+**File:** `content/au-dealer-math/saas-prompts/_assets/audm-palette-swatch.png` ✅ (built 2026-05-01)
+
+**To use as MJ sref:**
+1. Upload the swatch to Imgur (or any permanent CDN — NOT Discord, those URLs expire).
+2. Lock the URL in `content/au-dealer-math/saas-prompts/_assets/palette-swatch-url.txt`.
+3. In MJ web: drop the URL into the Style Reference field (or upload the PNG directly — MJ web hosts it).
+4. Use that URL/upload as `--sref` (or web-equivalent) in every AUDM MidJourney prompt.
+
+**Earlier palette (deprecated 2026-05-01):** `#FAF7F2` cream + `#C8612C` orange. Channel banner + logo + watermark all ship with the locked colors above, so the older swatch was out of sync. Don't use the old hexes.
 
 ---
 

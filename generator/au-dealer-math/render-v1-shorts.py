@@ -24,7 +24,7 @@ import subprocess
 from pathlib import Path
 
 REPO = Path(r"C:\dev\Claude")
-SRC = REPO / "video" / "out" / "audm-v1-payment-not-price-pivot.mp4"
+SRC = REPO / "video" / "out" / "audm-v1-payment-not-price-pivot-v2.mp4"  # v2 = YT Audio Library music swap, Content-ID safe
 OUT_DIR = REPO / "video" / "out" / "shorts"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -68,13 +68,24 @@ def build_filter(top_line_1, top_line_2, cta_text, dur):
     """ffmpeg filter:
        1. Source 1920x1080 -> blur-pad to 1080x1920 (Shorts vertical)
        2. Two-line caption at top (separate drawtext per line — \\n unreliable)
-       3. CTA overlay last 5 sec (orange band bottom)
+       3. CTA v2 last 5 sec — branded design:
+          - Dim bottom-third dark band
+          - "SEARCH" small cream caption
+          - "AU DEALER MATH" big cream BOLD
+          - Orange highlight stroke under "AU DEALER MATH" (logo v2 motif)
+          - No orange box bg — clean type-on-video
     """
     font_arg = str(DMSANS_BOLD).replace('\\', '/').replace(':', r'\:')
     cta_start = max(0, dur - 5.0)
+    enable_cta = f"enable='gte(t,{cta_start})'"
 
-    # Font size 64 keeps text within 1080px width even for ~14-char strings.
-    # Each line gets its own drawtext to control exact positioning.
+    # CTA layout positions (Y from top of 1920px frame)
+    cta_bg_top = 1500       # top of dim band
+    cta_search_y = 1560     # "SEARCH" small label
+    cta_brand_y = 1640      # "AU DEALER MATH" big bold
+    cta_stroke_y = 1810     # orange highlight stroke under brand text
+    cta_stroke_h = 16
+
     f = (
         # 1. Blur-pad 16:9 -> 9:16
         f"[0:v]split=2[orig][bg_src];"
@@ -100,16 +111,32 @@ def build_filter(top_line_1, top_line_2, cta_text, dur):
         f":x=(w-text_w)/2"
         f":y=240"
         f":box=1:boxcolor=#000000CC:boxborderw=18[capped];"
-        # 3. CTA overlay last 5 sec
-        f"[capped]drawtext=fontfile='{font_arg}'"
-        f":text='{cta_text}'"
+        # 3a. CTA dim bottom band (last 5 sec) — pulls eye to brand name
+        f"[capped]drawbox=x=0:y={cta_bg_top}:w=1080:h={1920 - cta_bg_top}"
+        f":color=#000000@0.55:t=fill"
+        f":{enable_cta}[ctabg];"
+        # 3b. "SEARCH" small label
+        f"[ctabg]drawtext=fontfile='{font_arg}'"
+        f":text='SEARCH'"
         f":fontcolor=#F5EFE6"
         f":fontsize=48"
-        f":bordercolor=#000000:borderw=4"
+        f":bordercolor=#000000:borderw=3"
         f":x=(w-text_w)/2"
-        f":y=h-180"
-        f":box=1:boxcolor=#D17A3DEE:boxborderw=20"
-        f":enable='gte(t,{cta_start})'"
+        f":y={cta_search_y}"
+        f":{enable_cta}[ctasearch];"
+        # 3c. "AU DEALER MATH" big bold brand line
+        f"[ctasearch]drawtext=fontfile='{font_arg}'"
+        f":text='AU DEALER MATH'"
+        f":fontcolor=#F5EFE6"
+        f":fontsize=96"
+        f":bordercolor=#000000:borderw=5"
+        f":x=(w-text_w)/2"
+        f":y={cta_brand_y}"
+        f":{enable_cta}[ctabrand];"
+        # 3d. Orange highlight stroke under brand text (logo v2 motif)
+        f"[ctabrand]drawbox=x=140:y={cta_stroke_y}:w=800:h={cta_stroke_h}"
+        f":color=#D17A3D:t=fill"
+        f":{enable_cta}"
     )
     return f
 

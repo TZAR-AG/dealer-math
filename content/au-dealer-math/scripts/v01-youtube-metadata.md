@@ -15,7 +15,7 @@ If a car salesperson asks "what's your weekly budget?" — they've already won.
 Here's what happens behind the desk after you answer.
 
 Free cheatsheet — "7 Lines on a Dealer Contract You Should Never Sign":
-🔗 audealermath.com.au/cheatsheet (link goes live with V1 publish)
+🔗 https://audealermath.com.au/cheatsheet
 
 🎯 What you'll learn:
 • The one question every Aussie car dealer asks in the first 90 seconds
