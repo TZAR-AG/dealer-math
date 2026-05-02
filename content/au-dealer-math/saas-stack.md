@@ -10,7 +10,7 @@ What tool is used for what task across the V1-V12 production pipeline. **NB Pro 
 | Voiceover generation | **ElevenLabs** (Paul voice, locked settings) | $0 (in stack) | regenerate-vo.js · stitching DISABLED · seed=42424242+i |
 | VO master concat | **ffmpeg `acrossfade`** (local) | $0 | build-master-vo.py · 200ms tri crossfades · ONE master VO file |
 | AI image generation (stills + thumbnail backgrounds) | **MidJourney v7** | $0 (in stack) | engineered prompts at saas-prompts/midjourney.md |
-| AI video generation (motion clips of stills) | **Kling 3.0** | $0 (in stack) | 5s motion clips of selected MJ stills |
+| ~~AI video generation (motion clips of stills)~~ | ~~Kling 3.0~~ | **CANCELLED 2026-05-02** | Replaced by Ken Burns on MJ stills (AFWL benchmark — Luke uses 100% MJ stills, no motion clips). Access lapses 2026-05-29. |
 | Stock B-roll / motion (when AI insufficient) | **Storyblocks All-Access** | $0 (in stack) | $100/mo · download under license |
 | Music bed | **Storyblocks All-Access** | $0 (in stack) | Pre-ducked + looped via ffmpeg crossfade |
 | Ken Burns animation on stills | **ffmpeg `zoompan`** (local) | $0 | 4× lanczos pre-scale anti-shake · bake-stills.py templates |
@@ -51,7 +51,7 @@ Nano Banana Pro is **NOT in the AUDM stack**. Adrian was out of credits when V1 
 | 1 | n8n cloud | Starter | **$42.25** | ✅ LIVE — monthly recurring |
 | 2 | InVideo AI | **Max → DOWNGRADING to Plus** | ~~$144.88~~ → **~$25** | 🟡 Adrian emailed for refund 2026-04-29 (research: clip extraction license-blocked) |
 | 3 | Midjourney | Standard | **$46.01** | ✅ LIVE — monthly recurring |
-| 4 | Kling 3.0 | Starter | **$11.17** | ✅ LIVE — monthly recurring |
+| 4 | ~~Kling 3.0~~ | ~~Starter~~ | ~~$11.17~~ | 🔴 **CANCELLED 2026-05-02** — access lapses 2026-05-29. Reason: Ken Burns on MJ stills covers all motion needs (AFWL teardown verified). Refund attempted within 7-day window. |
 | 5 | Submagic | **Starter + Magic Clips** | **$58.00** | ✅ LIVE — Magic Clips add-on added 2026-04-29 (research: bare Starter 2-min cap kills Shorts workflow) |
 | 6 | TubeBuddy | Pro | **$20.91** | ✅ LIVE — monthly recurring |
 | 7 | Storyblocks | All-Access | **$100.00** | ✅ LIVE — monthly recurring |
