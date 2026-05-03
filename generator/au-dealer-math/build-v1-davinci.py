@@ -30,11 +30,13 @@ TIMELINE_NAME = "V1_main"
 WIDTH, HEIGHT = 1920, 1080
 FPS = 24
 
-# Music bed: single looped track at -24dB. Pre-processed via ffmpeg as a
-# triple-loop with 3s crossfades + 1s fade-in/-out, covering the full video
-# duration (596s). Sourced from Downloads, processed into renders/music/.
+# Music bed: single looped track, pre-ducked + softened (-8dB extra reduction).
+# Pre-processed via ffmpeg to cover full V1 duration (587.18s exact match).
+# Levels: mean -44.8dB / max -32.2dB — sits well under VO without overpowering.
+# Source: YT Audio Library (Underbelly & Ty Mayer — "Wide Boys"). CID-safe.
+# Inspector adjustment in DaVinci no longer required — file is bake-ready.
 MUSIC_FILES = [
-    "mood-classic-looped-ducked.mp3",
+    "wide-boys-looped-ducked-soft.mp3",
 ]
 MUSIC_DIR_REL = "music"  # relative to RENDERS
 
@@ -402,6 +404,42 @@ if missing:
         print(f"   ... and {len(missing) - 5} more")
 
 all_paths = list(dict.fromkeys(all_paths))
+
+# CRITICAL — order matters here. To force fresh re-import of media (which
+# defeats DaVinci's filename-dedupe cache that keeps stale duration metadata),
+# we must:
+#   1. Delete any existing timeline that references the cached clips
+#   2. Then DeleteClips on cached media-pool entries
+#   3. Then ImportMedia for fresh
+# DeleteClips silently FAILS if a clip is referenced by an active timeline, so
+# step 1 must happen before step 2. Pattern caught V2 2026-05-03.
+
+# Step 1: Delete old timeline (frees clip references)
+for i in range(1, project.GetTimelineCount() + 1):
+    tl = project.GetTimelineByIndex(i)
+    if tl and tl.GetName() == TIMELINE_NAME:
+        print(f"\nDeleting existing timeline (must precede media-pool nuke): {TIMELINE_NAME}")
+        mp.DeleteTimelines([tl])
+        break
+
+# Step 2: Nuke any media-pool clips with names matching files we're about to
+# import. Without this, DaVinci silently keeps stale metadata (e.g. old VO
+# duration after a regen) and our explicit endFrame gets clipped to it.
+import_filenames = {Path(p).name for p in all_paths}
+existing = []
+def _collect_existing(folder):
+    for clip in folder.GetClipList() or []:
+        if clip.GetClipProperty("File Name") in import_filenames:
+            existing.append(clip)
+    for sub in folder.GetSubFolderList() or []:
+        _collect_existing(sub)
+_collect_existing(mp.GetRootFolder())
+if existing:
+    print(f"Nuking {len(existing)} cached media-pool clips (force fresh re-import)...")
+    delete_result = mp.DeleteClips(existing)
+    print(f"  DeleteClips returned: {delete_result}")
+
+# Step 3: Fresh import — DaVinci now reads actual file metadata, not cache
 print(f"\nImporting {len(all_paths)} media files...")
 imported = mp.ImportMedia(all_paths)
 print(f"Imported {len(imported) if imported else 0} clips into media pool")
@@ -435,12 +473,7 @@ print(f"Default still source duration: {DEFAULT_STILL_FRAMES} frames ({DEFAULT_S
 # CREATE TIMELINE
 # ============================================================
 
-for i in range(1, project.GetTimelineCount() + 1):
-    tl = project.GetTimelineByIndex(i)
-    if tl and tl.GetName() == TIMELINE_NAME:
-        print(f"Deleting existing timeline: {TIMELINE_NAME}")
-        mp.DeleteTimelines([tl])
-        break
+# (Old timeline already deleted above, before media-pool nuke + import.)
 
 timeline = mp.CreateEmptyTimeline(TIMELINE_NAME)
 if not timeline:
@@ -472,13 +505,20 @@ print(f"Video tracks: {video_count}")
 print(f"\nPlacing master VO ({MASTER_VO_DUR:.2f}s — single clip with crossfaded scene boundaries)...")
 master_vo_clip = find_clip_in_pool(mp, Path(MASTER_VO_FILE).name)
 if master_vo_clip:
+    # CRITICAL: explicit startFrame=0 + endFrame=MASTER_VO_DUR forces DaVinci to use
+    # the script-declared duration, NOT whatever was cached in media pool from a
+    # prior import. Without this, re-imported VOs play their old cached length and
+    # the audio cuts short of the visual track. Pattern caught on V2 2026-05-03.
+    vo_end_frame = sec_to_frame(MASTER_VO_DUR)
     info = {
         "mediaPoolItem": master_vo_clip,
+        "startFrame": 0,
+        "endFrame": vo_end_frame,
         "trackIndex": 1,
         "recordFrame": TL_START,
     }
     if mp.AppendToTimeline([info]):
-        print(f"  [vo] master-vo @ 0.00s ({MASTER_VO_DUR:.2f}s)")
+        print(f"  [vo] master-vo @ 0.00s ({MASTER_VO_DUR:.2f}s, {vo_end_frame}fr)")
     else:
         print(f"  [fail] master VO placement")
 else:

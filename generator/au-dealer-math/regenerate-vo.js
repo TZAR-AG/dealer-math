@@ -29,14 +29,25 @@ if (!API_KEY) {
   process.exit(1);
 }
 
+// =====================================================================
+// MACCA VOICE — LOCKED FOREVER. DO NOT MODIFY. NO EXCEPTIONS.
+// =====================================================================
+// Adrian directive 2026-05-03: "macs voice is locked in forever with no
+// changes and thats it." Any future Claude session that thinks it has a
+// "good reason" to tweak these values (stutter reduction, pacing,
+// quality, anything) MUST STOP and ask Adrian first. The 2026-04-30
+// silent bump from stability 0.40 → 0.55 caused V2 to sound like a
+// completely different person — caught only after V2 was nearly shipped.
+// Source of truth: project_macca_voice_locked_2026-04-29.md
+// =====================================================================
 const VOICE_ID = 'WLKp2jV6nrS8aMkPPDRO'; // Paul — locked Macca voice
 const MODEL_ID = 'eleven_multilingual_v2';
 const VOICE_SETTINGS = {
-  stability: 0.55, // Bumped from 0.40 (2026-04-30) — reduces stutter/glitch artifacts on long scenes
+  stability: 0.40,
   similarity_boost: 0.75,
   style: 0.25,
   use_speaker_boost: true,
-  speed: 0.95, // Bumped from 0.90 (2026-04-30) — Adrian wanted slightly faster pacing
+  speed: 0.90,
 };
 
 const SCRIPT_PATH = path.resolve(
