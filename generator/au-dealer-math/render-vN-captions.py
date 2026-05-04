@@ -59,10 +59,10 @@ FFPROBE = (
 FONTS_DIR = REPO / "fonts"
 DMSANS_REGULAR = FONTS_DIR / "DM_Sans" / "DMSans-Regular.ttf"
 
-FONTSIZE = 38
+FONTSIZE = 64
 FONTCOLOR = "#F5EFE6"
 BORDERCOLOR = "#000000"
-BORDERW = 4
+BORDERW = 6
 # Y at which the centre of a 1-line caption block sits (82% of frame height)
 Y_CENTER_EXPR = "h*0.82"
 # Approximate pixels-per-character at fontsize 38 on a 1920-wide frame:
@@ -112,8 +112,47 @@ def resolve_paths(n: int):
 # Transcription loading
 # ---------------------------------------------------------------------------
 
+PERSONA_NAME_SUBSTITUTIONS = {
+    # ElevenLabs forced-alignment transcribes the persona name as "Mack"
+    # (more common spelling). Brand name is "Mac". Any case-variant must be
+    # normalized BEFORE the drawtext filter chain is built. See
+    # feedback_audm_transcription_mack_to_mac_2026-05-04.md for the why.
+    "Mack": "Mac",
+    "mack": "mac",
+    "MACK": "MAC",
+    "Macka": "Mac",
+    "macka": "mac",
+    "Macca": "Mac",
+    "macca": "mac",
+    "MACCA": "MAC",
+}
+
+
+def _substitute_persona_name(word: str) -> str:
+    """Strip trailing punctuation, swap if it matches, re-attach punctuation.
+
+    Handles tokens like "Mack," / "Mack." / "Mack?" — common at sentence ends.
+    """
+    if not word:
+        return word
+    # Find trailing punctuation
+    trail = ""
+    core = word
+    while core and core[-1] in ".,?!;:":
+        trail = core[-1] + trail
+        core = core[:-1]
+    if core in PERSONA_NAME_SUBSTITUTIONS:
+        return PERSONA_NAME_SUBSTITUTIONS[core] + trail
+    return word
+
+
 def load_words(transcriptions: Path):
-    """Return a flat list of word dicts from all scenes, sorted by timeline_start."""
+    """Return a flat list of word dicts from all scenes, sorted by timeline_start.
+
+    Applies persona-name substitution (Mack/Macca/etc -> Mac) so burnt-in
+    captions never show the wrong spelling, even if the source transcription
+    is wrong.
+    """
     with transcriptions.open(encoding="utf-8") as f:
         data = json.load(f)
 
@@ -121,7 +160,7 @@ def load_words(transcriptions: Path):
     for scene in data["scenes"]:
         for w in scene["words"]:
             words.append({
-                "word": w["word"],
+                "word": _substitute_persona_name(w["word"]),
                 "start": float(w["timeline_start"]),
                 "end": float(w["timeline_end"]),
             })
