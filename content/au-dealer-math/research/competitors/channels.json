@@ -1,0 +1,37 @@
+{
+  "lookback_days": 90,
+  "min_outlier_score": 3.0,
+  "min_subs": 1000,
+  "baseline_min_video_age_days": 7,
+  "baseline_window": 20,
+  "_notes": [
+    "lookback_days = how far back per pull. 90 = catches 2026 trends, ignores stale.",
+    "min_outlier_score = views_per_day / channel_baseline_views_per_day. 3.0 = breakout, 5.0 = major, 10.0 = viral.",
+    "min_subs = filter out channels too small to have meaningful baselines.",
+    "baseline_min_video_age_days = ignore videos still in their algo cycle for baseline calc.",
+    "baseline_window = use last N qualifying videos to compute median.",
+    "Each entry can use either 'handle' (resolved via API) or 'channelId' (direct, skips resolution — preferred for ambiguous handles).",
+    "Bad handles auto-skip with a warning. category is purely for digest grouping."
+  ],
+  "channels": [
+    { "handle": "@CarEdge", "category": "us-auto-dealer-reveal", "note": "Father-son ex-dealer, US, the closest narrative comp" },
+    { "handle": "@AutoExpertJC", "category": "au-auto", "note": "John Cadogan — direct AU comp, ~440K" },
+    { "handle": "@ChrisFix", "category": "us-auto-broad", "note": "Auto generalist, large channel for mechanical title/thumbnail patterns" },
+    { "handle": "@DonutMedia", "category": "us-auto-broad", "note": "Auto entertainment — title/hook benchmarks" },
+    { "handle": "@LuckyLopez777", "category": "us-auto-dealer-reveal", "note": "Auction insider, dealer truth angle" },
+    { "handle": "@SavageGeese", "category": "us-auto-broad", "note": "Engineer-led auto reviews — long-form retention benchmark" },
+    { "handle": "@TFLcar", "category": "us-auto-broad", "note": "TFL Car — high upload volume, AU buyer-relevant models" },
+    { "channelId": "UCNGiXK9ZsxIzY-3g_TPilBQ", "handle": "@honestfinance", "category": "us-auto-finance", "note": "Honest Finance — direct auto-finance reveal channel, 242K" },
+    { "handle": "@glenjamesmoney", "category": "au-finance", "note": "Glen James / Money Money Money — AU personal finance, podcast-led" },
+    { "channelId": "UCCCxyaOGU1g2XVE9r7TKDCg", "handle": "@aussiefinancewithluke", "category": "au-finance", "note": "Aussie Finance With Luke — Adrian's anchor benchmark for daily AU-finance cadence" },
+    { "handle": "@grahamstephan", "category": "us-finance", "note": "Personal finance, real estate — title formula benchmark" },
+    { "handle": "@CalebHammer", "category": "us-finance", "note": "Caleb Hammer — financial-audit format, viral-driven" },
+    { "channelId": "UC9vUu4vlIlMC0dHQCTvQPbg", "handle": "@moneyguyshow", "category": "us-finance", "note": "The Money Guy Show — long-form retention benchmark, 659K" },
+    { "handle": "@AndreiJikh", "category": "us-finance", "note": "Personal finance / crypto — thumbnail design benchmark" },
+    { "handle": "@HowMoneyWorks", "category": "us-finance-faceless", "note": "Faceless finance — direct format benchmark" },
+    { "channelId": "UCBRpqrzuuqE8TZcWw75JSdw", "handle": "@thecompoundnews", "category": "us-finance", "note": "The Compound — financial news + analysis, 233K" },
+    { "handle": "@Wendoverproductions", "category": "faceless-edu", "note": "Faceless education GOAT — script density benchmark" },
+    { "channelId": "UCMOqf8ab-42UUQIdVoKwjlQ", "handle": "@practicalengineeringchannel", "category": "faceless-edu", "note": "Practical Engineering — faceless niche-mastery benchmark, 4.7M" },
+    { "handle": "@Veritasium", "category": "faceless-edu", "note": "(face but mostly voiceover-driven) — viral-hit mechanics benchmark" }
+  ]
+}
