@@ -1,0 +1,60 @@
+{
+  "text": "Three thousand dollars. One room. Most buyers don't even notice it.",
+  "words": [
+    {
+      "word": "Three",
+      "timeline_start": 0.07,
+      "timeline_end": 0.302
+    },
+    {
+      "word": "thousand",
+      "timeline_start": 0.337,
+      "timeline_end": 0.615
+    },
+    {
+      "word": "dollars.",
+      "timeline_start": 0.65,
+      "timeline_end": 1.068
+    },
+    {
+      "word": "One",
+      "timeline_start": 1.196,
+      "timeline_end": 1.405
+    },
+    {
+      "word": "room.",
+      "timeline_start": 1.44,
+      "timeline_end": 1.753
+    },
+    {
+      "word": "Most",
+      "timeline_start": 2.113,
+      "timeline_end": 2.357
+    },
+    {
+      "word": "buyers",
+      "timeline_start": 2.403,
+      "timeline_end": 2.67
+    },
+    {
+      "word": "don't",
+      "timeline_start": 2.705,
+      "timeline_end": 2.856
+    },
+    {
+      "word": "even",
+      "timeline_start": 2.879,
+      "timeline_end": 3.019
+    },
+    {
+      "word": "notice",
+      "timeline_start": 3.053,
+      "timeline_end": 3.379
+    },
+    {
+      "word": "it.",
+      "timeline_start": 3.425,
+      "timeline_end": 3.657
+    }
+  ]
+}

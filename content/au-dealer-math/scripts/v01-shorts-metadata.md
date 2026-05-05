@@ -63,6 +63,17 @@ Full breakdown on the channel — search AU Dealer Math.
 #AUDealerMath #DealerFinance #shorts
 ```
 
+**Pinned comment (paste within 5 min of upload, then pin + heart):**
+
+The two sentences only work after you stop answering "what monthly payment works for you". That one's a trap, not a question. Skip it and the math goes back in your favour.
+
+Free 7-Lines cheatsheet (the lines on a dealer contract you should never sign):
+→ audealermath.com.au
+
+Full 10-min breakdown on the channel — search "AU Dealer Math" or tap the channel name.
+
+— Mac
+
 ---
 
 ### Short 4 — Three rooms (Wed 6 May)
@@ -78,6 +89,17 @@ Full breakdown on the channel — search AU Dealer Math.
 #AUDealerMath #CarDealerAustralia #shorts
 ```
 
+**Pinned comment (paste within 5 min of upload, then pin + heart):**
+
+The room order is the trick. Sales floor sets the price, F&I office sets the rate, aftercare desk loads the back end. Each one has its own profit target — and the buyers who lose the most don't realise they've walked into the second and third rooms.
+
+Free 7-Lines cheatsheet (the lines on a dealer contract you should never sign):
+→ audealermath.com.au
+
+Full 10-min breakdown on the channel — search "AU Dealer Math" or tap the channel name.
+
+— Mac
+
 ---
 
 ### Short 5 — Aftercare margin (Thu 7 May)
@@ -92,6 +114,17 @@ Full breakdown on the channel — search AU Dealer Math.
 
 #AUDealerMath #CarBuyingTips #shorts
 ```
+
+**Pinned comment (paste within 5 min of upload, then pin + heart):**
+
+$1,500 to $3,000 is the price. $500 is closer to what the dealer paid for it. That gap is the aftercare margin — and it's why the F&I office spends 30 minutes selling you paint protection after you've already signed the loan.
+
+Free 7-Lines cheatsheet (the lines on a dealer contract you should never sign):
+→ audealermath.com.au
+
+Full 10-min breakdown on the channel — search "AU Dealer Math" or tap the channel name.
+
+— Mac
 
 ---
 

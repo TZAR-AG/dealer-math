@@ -1,0 +1,60 @@
+{
+  "text": "How many people do you actually negotiate with at a dealership?",
+  "words": [
+    {
+      "word": "How",
+      "timeline_start": 0.081,
+      "timeline_end": 0.186
+    },
+    {
+      "word": "many",
+      "timeline_start": 0.221,
+      "timeline_end": 0.36
+    },
+    {
+      "word": "people",
+      "timeline_start": 0.406,
+      "timeline_end": 0.743
+    },
+    {
+      "word": "do",
+      "timeline_start": 0.824,
+      "timeline_end": 0.964
+    },
+    {
+      "word": "you",
+      "timeline_start": 1.057,
+      "timeline_end": 1.207
+    },
+    {
+      "word": "actually",
+      "timeline_start": 1.335,
+      "timeline_end": 1.637
+    },
+    {
+      "word": "negotiate",
+      "timeline_start": 1.683,
+      "timeline_end": 2.241
+    },
+    {
+      "word": "with",
+      "timeline_start": 2.264,
+      "timeline_end": 2.38
+    },
+    {
+      "word": "at",
+      "timeline_start": 2.426,
+      "timeline_end": 2.485
+    },
+    {
+      "word": "a",
+      "timeline_start": 2.519,
+      "timeline_end": 2.543
+    },
+    {
+      "word": "dealership?",
+      "timeline_start": 2.589,
+      "timeline_end": 3.228
+    }
+  ]
+}

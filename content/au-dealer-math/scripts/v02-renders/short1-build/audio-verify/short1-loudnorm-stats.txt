@@ -1,0 +1,16 @@
+Short 1 — fni-office
+Final: C:\dev\Claude\video\out\shorts\audm-v2-short-1.mp4
+Duration: 29.96s
+Integrated LUFS: -14.3
+True peak dBFS: -0.8
+
+--- audio stream ---
+codec_name=aac
+sample_rate=48000
+channels=2
+bit_rate=192966
+
+--- seam timestamps (post-acrossfade) ---
+hook->open:    t≈0.450s
+open->middle:  t≈3.183s
+middle->close: t≈26.125s

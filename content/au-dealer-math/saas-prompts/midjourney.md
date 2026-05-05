@@ -32,16 +32,80 @@
 | `--s 80` | Scale slider ~80 (Stylize equivalent) |
 | `--v 7` | Version selector — set to v7 |
 | `--chaos 0` | Variation Mode → Off (or 0) |
-| `--no [list]` | "Exclude these" / "Things to avoid" field |
+| `--no [list]` | **No dedicated UI field — bake negatives into the prompt body** (Adrian 2026-05-05: "mj dosent have an exclude bar"). Use natural-language avoid clauses or descriptive contrasts in the prompt itself. |
 | `--sref [URL]` | Style Reference upload — drag URL or upload file |
 | `--sw 200` | Style weight slider (if exposed) |
 
 **SOP for AUDM in MJ web:**
-1. Paste the prompt body (NO flags) into the prompt textarea
+1. Paste the prompt body — including any negative/avoid language baked in — into the prompt textarea
 2. Right panel: Aspect Ratio → click `16:9`
 3. Settings drawer: Style → Raw · Scale → 80 · Version → v7 · Variation Mode → Off
-4. Exclude field: paste the negative prompt list
+4. Style Reference: drop AUDM palette swatch URL/upload
 5. Click Submit
+
+**How to handle negatives without a dedicated field:**
+- **Embed as descriptive contrast in the body:** "modern dark grey laminate office desk, NOT wooden, NOT rustic" beats listing `wood, rustic` in a separate `--no` field
+- **Trailing avoid clause:** end the prompt with a short `Avoid: [comma-separated]` line in plain English — MJ respects this as natural-language guidance even though it isn't a formal flag
+- **Positive anchor first, negative second:** every "don't render X" should pair with "DO render Y" in the same sentence — pure prohibition without a positive replacement leaves MJ free to drift
+
+## ⚠ Document framing patterns — text must be INVISIBLE (LOCKED 2026-05-05)
+
+Adrian 2026-05-05: *"we need to move a bit further away from being able to see text on documents, its either zoomed out a bit more or blurry"*. MJ v7 cannot render legible English under ~12 chars consistently. Even at "barely readable" framing, MJ drifts to gibberish that breaks the doc-forensics trust signal. So every doc-forensics prompt picks ONE of two safe patterns.
+
+**Pattern 1 — Zoomed-out / wider framing:** top-down "desk overview" at 3+ ft / 1m+, document covers ~30-50% of frame. Text becomes texture, not content. Pen, mug, phone, lamp, calc share the frame as environment.
+- ✅ "top-down wide on a charcoal melamine desk, contract paper covers 30% of frame, calculator + pen + smart key fob + coffee mug sharing the surface, environmental still, 35mm Summicron lens"
+- ❌ "top-down close-up on a contract clause" — text becomes focal subject, MJ generates gibberish
+
+**Pattern 2 — Shallow DOF blur:** macro/close-up with extreme shallow depth of field. IN-FOCUS subject is hand / pen tip / calculator buttons / smart key fob — text is in foreground or background blur.
+- ✅ "extreme shallow depth of field, hand resting on calculator buttons, display soft-blurred glow in foreground, contract paper visible but text dissolved in DOF"
+- ✅ "macro on pen tip touching paper, paper text blurred to texture in soft background blur, Hasselblad 500CM medium format aesthetic"
+- ❌ "macro on contract showing 'INTEREST RATE' and signature line in sharp focus" — text in focus = MJ-text-failure
+
+**Banned framings (never compose):**
+- Tight macro where document text occupies >25% of frame in sharp focus
+- Calculator display readable + in focus
+- Hand pointing at / circling a specific word as focal subject
+- "Reading distance" (~30cm) composition where viewer's eye lands on the text
+
+**Mandatory `Avoid:` additions for any text-bearing surface** (paper, contract, brochure, calculator, sticker, screen, key tag):
+```
+legible text, readable text, sharp focus on document text, text as focal subject, reading-distance composition, text in focus, words on paper visible
+```
+
+### Plate handling — same logic, applied to number plates (LOCKED 2026-05-05)
+
+Adrian 2026-05-05: *"same goes for any text like number plates, maybe prompts cars to have no number plates or just blank black number plate"*. Two safe prompt patterns for any vehicle prompt where a plate would be in frame. **Never request "AU plate" generically** — MJ butchers the characters every time.
+
+**Pattern A — No plate at all:** explicitly prompt the car without a plate. Compose the angle so the absence reads naturally.
+- Phrasing: `vehicle without front number plate, plate frame empty, no registration plate visible`
+- Best angles: front three-quarter with plate area in shadow, profile, rear-on with plate cropped out of frame
+
+**Pattern B — Blank black plate:** prompt the plate as a solid feature with NO characters. MJ renders a clean rectangle instead of gibberish letters.
+- Phrasing: `blank matte black rectangular registration plate, no characters, no numbers, no letters, no text, solid plate face`
+- Use this when plate-shape silhouette IS the AU-anchor signal (372×134mm rectangle vs US-square ratio carries the AU read; the absence of text means nothing to butcher)
+
+**Mandatory `Avoid:` additions for any vehicle prompt with a plate in frame:**
+```
+visible plate text, plate characters, plate numbers, plate letters, AU plate text, state name on plate, registration text, gibberish text on plate
+```
+
+### Key fob handling — same logic, applied to button symbols (LOCKED 2026-05-05 PM)
+
+Adrian 2026-05-05 PM: *"for keys, the symbols are all messed up, we need to prompts keys to look modern but have no symbols on them"*. Modern smart-proximity fob buttons normally carry tiny icons (lock-arrow, unlock-arrow, trunk, panic siren). MJ butchers those icons the same way it butchers text — they render as gibberish symbols that break the modern-fob trust signal. Fix: prompt the fob with **blank featureless buttons** and let the body shape carry the "smart key" read.
+
+**Locked positive phrasing for any key visual:**
+```
+modern proximity smart key fob, rounded matte black plastic body with integrated chrome trim accent, four blank rectangular soft-touch buttons with NO symbols / NO icons / NO labels visible, smooth featureless button faces, small valet-blade slot, current Toyota or Ford Ranger key fob design language, recessed manufacturer logo silhouette only
+```
+
+**Mandatory `Avoid:` additions for any key visual:**
+```
+lock icon on button, unlock icon, trunk icon, panic icon, button symbols, button icons, gibberish symbols on key fob, manufacturer wordmark on key, brand name visible on fob, text on key fob, embossed labels on buttons, novelty keychain, oversized keyring with multiple keys
+```
+
+**The trio — documents + plates + fob buttons all obey the same doctrine.** Three small-text surfaces MJ can't render cleanly, three application patterns, one underlying rule: don't ask MJ to render small text or symbols. Compose for the absence (blank, blurred, or zoomed-out) and let shape/composition/atmosphere carry the meaning.
+
+**Reference (full doctrine):** `.claude/rules/design-system-audm.md` §§ Document framing lock + Plate handling lock + Key style lock · memory `feedback_audm_mj_documents_text_invisible_2026-05-05.md` + `feedback_audm_mj_modernity_aftercare_keys_2026-05-05.md`.
 
 ## Locked parameter recipe — Discord (kept for reference)
 

@@ -1,0 +1,60 @@
+{
+  "text": "How much does a two percent rate markup actually cost you?",
+  "words": [
+    {
+      "word": "How",
+      "timeline_start": 0.07,
+      "timeline_end": 0.197
+    },
+    {
+      "word": "much",
+      "timeline_start": 0.232,
+      "timeline_end": 0.418
+    },
+    {
+      "word": "does",
+      "timeline_start": 0.464,
+      "timeline_end": 0.627
+    },
+    {
+      "word": "a",
+      "timeline_start": 0.697,
+      "timeline_end": 0.766
+    },
+    {
+      "word": "two",
+      "timeline_start": 0.859,
+      "timeline_end": 1.022
+    },
+    {
+      "word": "percent",
+      "timeline_start": 1.091,
+      "timeline_end": 1.44
+    },
+    {
+      "word": "rate",
+      "timeline_start": 1.509,
+      "timeline_end": 1.707
+    },
+    {
+      "word": "markup",
+      "timeline_start": 1.741,
+      "timeline_end": 2.113
+    },
+    {
+      "word": "actually",
+      "timeline_start": 2.241,
+      "timeline_end": 2.775
+    },
+    {
+      "word": "cost",
+      "timeline_start": 2.856,
+      "timeline_end": 3.146
+    },
+    {
+      "word": "you?",
+      "timeline_start": 3.228,
+      "timeline_end": 3.46
+    }
+  ]
+}

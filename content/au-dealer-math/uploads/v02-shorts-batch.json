@@ -1,0 +1,54 @@
+{
+  "uploads": [
+    {
+      "file": "video/out/shorts/audm-v2-short-1.mp4",
+      "title": "What dealers do in the F&I office",
+      "description_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-1-description",
+      "tags": ["AU Dealer Math", "car buying australia", "car dealer australia", "dealer finance", "finance manager", "F and I office", "finance and insurance", "car loan australia", "dealer profit", "after the price", "never answer this", "ex car salesman", "car buying tips australia", "australian car dealer secrets", "dealership tips"],
+      "category_id": 22,
+      "schedule": "2026-05-05T21:00:00+08:00",
+      "made_for_kids": false,
+      "comment_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-1-pinned-comment"
+    },
+    {
+      "file": "video/out/shorts/audm-v2-short-2.mp4",
+      "title": "Why a 2 percent markup costs you $3,000",
+      "description_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-2-description",
+      "tags": ["AU Dealer Math", "car finance australia", "car loan markup", "dealer rate markup", "finance commission", "comparison rate australia", "car loan rate", "dealer interest rate", "two percent markup", "car loan tips australia", "finance manager", "dealer finance trick", "car buying australia", "australian car loan", "dealership finance"],
+      "category_id": 22,
+      "schedule": "2026-05-06T21:00:00+08:00",
+      "made_for_kids": false,
+      "comment_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-2-pinned-comment"
+    },
+    {
+      "file": "video/out/shorts/audm-v2-short-3.mp4",
+      "title": "Same bank, same approval, different rates",
+      "description_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-3-description",
+      "tags": ["AU Dealer Math", "dealer finance", "same bank different rate", "bank approval rate", "dealer rate gap", "finance broker vs dealer", "car loan rate australia", "dealer markup", "finance manager", "comparison rate", "car buying australia", "australian car finance", "dealership rate", "dealer interest rate", "ex car salesman"],
+      "category_id": 22,
+      "schedule": "2026-05-07T21:00:00+08:00",
+      "made_for_kids": false,
+      "comment_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-3-pinned-comment"
+    },
+    {
+      "file": "video/out/shorts/audm-v2-short-4.mp4",
+      "title": "$3,000 in the room before F&I",
+      "description_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-4-description",
+      "tags": ["AU Dealer Math", "paint protection", "ceramic coating", "window tint", "dash cam", "dealer accessories", "aftercare margin", "dealer extras australia", "dealership add ons", "car protection package", "car buying australia", "australian car dealer", "before F and I", "accessories markup", "dealership tips"],
+      "category_id": 22,
+      "schedule": "2026-05-08T21:00:00+08:00",
+      "made_for_kids": false,
+      "comment_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-4-pinned-comment"
+    },
+    {
+      "file": "video/out/shorts/audm-v2-short-5.mp4",
+      "title": "You negotiated with three, not one",
+      "description_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-5-description",
+      "tags": ["AU Dealer Math", "dealership negotiation", "three rooms dealer", "sales floor finance aftercare", "car buying tips australia", "dealer negotiation", "dealership tactics", "australian car dealer", "ex car salesman", "car buying australia", "finance manager", "aftercare desk", "dealership tour", "new car negotiation", "dealer rooms"],
+      "category_id": 22,
+      "schedule": "2026-05-09T21:00:00+08:00",
+      "made_for_kids": false,
+      "comment_file": "content/au-dealer-math/scripts/v02-shorts-metadata.md#short-5-pinned-comment"
+    }
+  ]
+}

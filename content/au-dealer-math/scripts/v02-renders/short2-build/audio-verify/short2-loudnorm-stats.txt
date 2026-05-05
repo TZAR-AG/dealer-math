@@ -1,0 +1,16 @@
+Short 2 — rate-range-3k
+Final: C:\dev\Claude\video\out\shorts\audm-v2-short-2.mp4
+Duration: 31.62s
+Integrated LUFS: -14.3
+True peak dBFS: -0.8
+
+--- audio stream ---
+codec_name=aac
+sample_rate=48000
+channels=2
+bit_rate=193422
+
+--- seam timestamps (post-acrossfade) ---
+hook->open:    t≈0.450s
+open->middle:  t≈4.433s
+middle->close: t≈27.250s

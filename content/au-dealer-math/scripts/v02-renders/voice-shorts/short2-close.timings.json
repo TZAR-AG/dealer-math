@@ -1,0 +1,55 @@
+{
+  "text": "Two percent. Three thousand dollars. That's how it adds up.",
+  "words": [
+    {
+      "word": "Two",
+      "timeline_start": 0.046,
+      "timeline_end": 0.221
+    },
+    {
+      "word": "percent.",
+      "timeline_start": 0.29,
+      "timeline_end": 0.801
+    },
+    {
+      "word": "Three",
+      "timeline_start": 1.033,
+      "timeline_end": 1.335
+    },
+    {
+      "word": "thousand",
+      "timeline_start": 1.37,
+      "timeline_end": 1.66
+    },
+    {
+      "word": "dollars.",
+      "timeline_start": 1.695,
+      "timeline_end": 2.194
+    },
+    {
+      "word": "That's",
+      "timeline_start": 2.322,
+      "timeline_end": 2.543
+    },
+    {
+      "word": "how",
+      "timeline_start": 2.577,
+      "timeline_end": 2.659
+    },
+    {
+      "word": "it",
+      "timeline_start": 2.728,
+      "timeline_end": 2.798
+    },
+    {
+      "word": "adds",
+      "timeline_start": 2.821,
+      "timeline_end": 3.042
+    },
+    {
+      "word": "up.",
+      "timeline_start": 3.135,
+      "timeline_end": 3.46
+    }
+  ]
+}

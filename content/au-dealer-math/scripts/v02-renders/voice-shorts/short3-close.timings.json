@@ -1,0 +1,35 @@
+{
+  "text": "Same bank. Same approval. Different outcomes.",
+  "words": [
+    {
+      "word": "Same",
+      "timeline_start": 0.035,
+      "timeline_end": 0.337
+    },
+    {
+      "word": "bank.",
+      "timeline_start": 0.372,
+      "timeline_end": 0.766
+    },
+    {
+      "word": "Same",
+      "timeline_start": 0.929,
+      "timeline_end": 1.207
+    },
+    {
+      "word": "approval.",
+      "timeline_start": 1.231,
+      "timeline_end": 1.8
+    },
+    {
+      "word": "Different",
+      "timeline_start": 1.927,
+      "timeline_end": 2.229
+    },
+    {
+      "word": "outcomes.",
+      "timeline_start": 2.252,
+      "timeline_end": 2.868
+    }
+  ]
+}

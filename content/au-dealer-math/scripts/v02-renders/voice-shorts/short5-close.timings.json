@@ -1,0 +1,55 @@
+{
+  "text": "You thought you negotiated with one. You negotiated with three.",
+  "words": [
+    {
+      "word": "You",
+      "timeline_start": 0.07,
+      "timeline_end": 0.174
+    },
+    {
+      "word": "thought",
+      "timeline_start": 0.221,
+      "timeline_end": 0.418
+    },
+    {
+      "word": "you",
+      "timeline_start": 0.441,
+      "timeline_end": 0.511
+    },
+    {
+      "word": "negotiated",
+      "timeline_start": 0.592,
+      "timeline_end": 1.231
+    },
+    {
+      "word": "with",
+      "timeline_start": 1.254,
+      "timeline_end": 1.393
+    },
+    {
+      "word": "one.",
+      "timeline_start": 1.474,
+      "timeline_end": 1.776
+    },
+    {
+      "word": "You",
+      "timeline_start": 1.8,
+      "timeline_end": 1.892
+    },
+    {
+      "word": "negotiated",
+      "timeline_start": 1.939,
+      "timeline_end": 2.589
+    },
+    {
+      "word": "with",
+      "timeline_start": 2.635,
+      "timeline_end": 2.763
+    },
+    {
+      "word": "three.",
+      "timeline_start": 2.798,
+      "timeline_end": 3.297
+    }
+  ]
+}

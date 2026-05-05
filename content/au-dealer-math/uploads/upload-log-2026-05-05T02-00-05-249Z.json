@@ -1,0 +1,27 @@
+{
+  "spec_path": "content/au-dealer-math/uploads/v02-shorts-batch-test.json",
+  "dry_run": true,
+  "total": 2,
+  "completed": 2,
+  "failed": 0,
+  "results": [
+    {
+      "index": 0,
+      "title": "What dealers do in the F&I office",
+      "file": "video/out/shorts/audm-v2-short-1.mp4",
+      "schedule": "2026-05-05T18:00:00+08:00",
+      "status": "dry-run-ok",
+      "startedAt": "2026-05-05T02:00:05.169Z",
+      "finishedAt": "2026-05-05T02:00:05.209Z"
+    },
+    {
+      "index": 1,
+      "title": "Why a 2 percent markup costs you $3,000",
+      "file": "video/out/shorts/audm-v2-short-1.mp4",
+      "schedule": "2026-05-06T21:00:00+08:00",
+      "status": "dry-run-ok",
+      "startedAt": "2026-05-05T02:00:05.209Z",
+      "finishedAt": "2026-05-05T02:00:05.249Z"
+    }
+  ]
+}

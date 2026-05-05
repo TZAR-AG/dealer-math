@@ -1,12 +1,12 @@
 # AU Dealer Math — YouTube Best Practices Playbook
 
-Channel-level YouTube checklist applied to V1 onwards. Built against TubeBuddy's 8-point video checklist + 2026 algorithm research + AU-specific category requirements.
+Channel-level YouTube checklist applied to V1 onwards. Built against AUDM 8-point upload checklist + 2026 algorithm research + AU-specific category requirements. NO third-party SaaS dependency (no TubeBuddy, no vidIQ) — channel runs on free YT Studio + research files in this repo.
 
 Reference for every video upload.
 
 ---
 
-## TubeBuddy 8-point video checklist (hit ALL on every upload)
+## 8-point upload checklist (hit ALL on every upload)
 
 | Item | V1 status | How |
 |---|---|---|
@@ -25,7 +25,7 @@ Reference for every video upload.
 
 ### Title (≤ 70 chars, AU geo-anchor in first 50)
 - Lock title BEFORE drafting thumbnail (thumbnail must support, not contradict, the title)
-- Test 2-3 variants with TubeBuddy A/B Test if Pro tier
+- Title is editable in Studio post-publish (no re-upload needed) — if 24h CTR <3%, swap to fallback title from `reference_audm_title_formula_2026-05-04.md` PHASE 6 candidates
 - Locked V1: `I Sold Cars in Australia for 10 Years — Never Answer This One Question` (74 chars · CTR estimate 8-12%)
 
 ### Thumbnail
@@ -35,8 +35,9 @@ Reference for every video upload.
 - Max 3-4 words on screen
 - Face / body / object on left, text on right (or vice versa) — never centred behind text
 - Brand colour anchor: charcoal #2B2B2B + outback orange #D17A3D
-- Run TubeBuddy Thumbnail Analyser — score ≥ 75/100
-- A/B test if budget allows (TubeBuddy Pro Thumbnail A/B feature)
+- Self-check: legible at ~200×112 mobile-feed scale (open the PNG at 17% zoom — if you can't read the headline, it's broken)
+- Contrast check: charcoal #2B2B2B + outback orange #D17A3D + cream #F5EFE6 only; no off-brand colour
+- YT Studio's native thumbnail A/B test unlocks at 1K subs — defer split-testing until then; before that, swap manually if 24h CTR <3%
 
 ### Description (optimise first 150 chars for "above the fold")
 - Hook line in first 100 chars (mobile shows ~125 before "show more")
@@ -47,13 +48,15 @@ Reference for every video upload.
 - Hashtags max 3 at end (`#AUDealerMath #CarBuyingAustralia #DealerFinance`)
 - Locked template at [v01-youtube-metadata.md](scripts/v01-youtube-metadata.md)
 
-### Tags (target 13-15 tags, mix of broad + long-tail)
-- First tag = exact match brand `au dealer math`
-- Tags 2-3 = primary topic (`car buying australia`, `dealer finance`)
-- Tags 4-7 = long-tail specific (`weekly car payment trap`, `loan term extension trick`)
-- Tags 8-13 = related niche (`novated lease australia`, `drive away price`)
-- Total tag length ≤ 500 chars
-- Run TubeBuddy Tag Explorer to find low-competition wins
+### Tags (research-locked 2026-05-05 — see [research/yt-tags-2026-05-05.md](research/yt-tags-2026-05-05.md))
+- **Locked target:** 20 tags · 480-498 YT-counted chars (multi-word tags wrap in quotes, +2 each)
+- **Slot 1:** exact match brand `au dealer math`
+- **Slots 2-3:** primary topic anchors (the 1-2 nouns the video is about)
+- **Slots 4-7:** title-derived long-tail + 3 autocomplete-confirmed long-tails for the topic
+- **Slots 8-20 (channel-wide constants — copy-paste on every video):** `car buying australia, dealer finance, car dealer tricks, car salesman tricks, australian car dealer, ex car salesperson, how to negotiate a car deal australia, car loan australia, finance manager dealership, how to buy a car australia, new car buying tips, dealership tricks, drive away price`
+- **Char-budget verifier:** before publish, run `len(', '.join(f'"{t}"' if ' ' in t else t for t in tags))` — must be 480-498
+- V1 + V2 final tag strings + V3-V25 topic-pack templates: see [research/yt-tags-2026-05-05.md](research/yt-tags-2026-05-05.md) § TL;DR + § Reusable formula
+- Re-score after V12 publish using real Studio impression data
 - Tag rankings only meaningful after 30+ days of data
 
 ### Chapters (min 4 for a 9+ min video)
@@ -134,17 +137,17 @@ au dealer math, australian car dealer, car buying australia, dealer finance, dea
 
 ---
 
-## TubeBuddy Pro features to use
+## Free / manual replacements for SaaS-only workflows
 
-Already paid for per [channel-config.md](channel-config.md). Use these:
+We do NOT use TubeBuddy / vidIQ / any paid YT-tooling SaaS (per `feedback_no_new_saas_until_revenue.md`). Equivalents:
 
-1. **Tag Explorer** — search the keyword you're targeting, copy long-tail variants with low competition.
-2. **Best Practice Audit** — runs the 8-point check on each video before publish (matches the screenshot you saw).
-3. **Thumbnail Analyser** — scores contrast / face / text legibility / brand consistency. Aim for ≥ 75.
-4. **A/B Test** — split-test 2 thumbnails on the same video for 7 days. Winner auto-applies. Use for V3+ (V1 has no fallback variant).
-5. **Card Templates** — re-use card configs across videos (subscribe + lead magnet templates save 5 min per upload).
-6. **Tag Rankings** — meaningful after 30 days of data, ignore for V1.
-7. **Bulk Tag Updates** — re-tag old videos when keyword strategy shifts (V5+ task).
+1. **Tag research** → `content/au-dealer-math/research/yt-tags-2026-05-05.md` (research-locked formula + per-video sets, refreshed at V12 publish via re-run of `generator/scrapling/yt-tag-pull.py`).
+2. **Best-practice audit** → this doc + `reference_audm_title_formula_2026-05-04.md` + the per-video pre-build checklists in script files.
+3. **Thumbnail check** → manual self-review at 17% zoom (mobile-feed scale) + the brand-palette lock in `.claude/rules/design-system-audm.md`.
+4. **Thumbnail A/B test** → wait for YT Studio's native A/B (unlocks at 1K subs); pre-1K, swap manually if 24h CTR <3%.
+5. **Card templates** → V3 onwards copy card config from V1/V2 (Subscribe at 25%, lead-magnet at hook moment).
+6. **Tag rankings** → YT Studio Analytics > Reach > "Search results" surfaces real query data after 30 days. Source-of-truth for V12+ tag re-scoring.
+7. **Bulk tag updates** → manual via Studio (or via `generator/au-dealer-math/upload-yt.mjs` if we add a `videos.update` path later — currently not built).
 
 ---
 
@@ -165,7 +168,7 @@ Already paid for per [channel-config.md](channel-config.md). Use these:
 
 | Metric | Target | Action if missed |
 |---|---|---|
-| First 60-min CTR | 4-7% | Below 3% → swap thumbnail (TubeBuddy A/B) |
+| First 60-min CTR | 4-7% | Below 3% → swap thumbnail manually in Studio (replaces uploaded thumbnail; CTR test resets) |
 | Avg view duration | ≥ 50% (~4:50 of 9:47) | Below 35% → check retention graph for cliff, note for V2 hook |
 | Comment count Day 1 | ≥ 5 | Below 3 → reply to every existing comment to prompt more |
 | Lead magnet clicks Day 7 | ≥ 2% of views | Below 1% → tighten card timing or rewrite description CTA |
@@ -356,7 +359,7 @@ Highest-engagement format: polls. Drives next-video planning + sub-conversion vi
 
 ## Reference
 
-- TubeBuddy 8-point checklist: visible in TubeBuddy panel during upload
+- 8-point upload checklist: § "8-point upload checklist" in this doc (no TubeBuddy / vidIQ — see "Free / manual replacements" section)
 - 2026 algorithm research: agents 2026-04-29
 - AU CPM benchmarks: Australian YT CPM data 2026
 - V1 metadata: [v01-youtube-metadata.md](scripts/v01-youtube-metadata.md)

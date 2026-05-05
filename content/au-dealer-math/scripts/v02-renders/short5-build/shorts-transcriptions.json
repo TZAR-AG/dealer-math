@@ -1,0 +1,394 @@
+{
+  "scenes": [
+    {
+      "title": "Open",
+      "words": [
+        {
+          "word": "How",
+          "timeline_start": 0.581,
+          "timeline_end": 0.6859999999999999
+        },
+        {
+          "word": "many",
+          "timeline_start": 0.721,
+          "timeline_end": 0.86
+        },
+        {
+          "word": "people",
+          "timeline_start": 0.906,
+          "timeline_end": 1.2429999999999999
+        },
+        {
+          "word": "do",
+          "timeline_start": 1.3239999999999998,
+          "timeline_end": 1.464
+        },
+        {
+          "word": "you",
+          "timeline_start": 1.557,
+          "timeline_end": 1.707
+        },
+        {
+          "word": "actually",
+          "timeline_start": 1.835,
+          "timeline_end": 2.137
+        },
+        {
+          "word": "negotiate",
+          "timeline_start": 2.183,
+          "timeline_end": 2.741
+        },
+        {
+          "word": "with",
+          "timeline_start": 2.764,
+          "timeline_end": 2.88
+        },
+        {
+          "word": "at",
+          "timeline_start": 2.926,
+          "timeline_end": 2.985
+        },
+        {
+          "word": "a",
+          "timeline_start": 3.019,
+          "timeline_end": 3.043
+        },
+        {
+          "word": "dealership?",
+          "timeline_start": 3.089,
+          "timeline_end": 3.728
+        }
+      ]
+    },
+    {
+      "title": "Middle",
+      "words": [
+        {
+          "word": "Every",
+          "timeline_start": 4.285993000000014,
+          "timeline_end": 4.585992999999997
+        },
+        {
+          "word": "finance",
+          "timeline_start": 4.585992999999997,
+          "timeline_end": 4.985993000000002
+        },
+        {
+          "word": "manager",
+          "timeline_start": 4.985993000000002,
+          "timeline_end": 5.385993000000008
+        },
+        {
+          "word": "I",
+          "timeline_start": 5.385993000000008,
+          "timeline_end": 5.605993000000007
+        },
+        {
+          "word": "ever",
+          "timeline_start": 5.605993000000007,
+          "timeline_end": 5.925993
+        },
+        {
+          "word": "worked",
+          "timeline_start": 5.925993,
+          "timeline_end": 6.205993000000001
+        },
+        {
+          "word": "with",
+          "timeline_start": 6.205993000000001,
+          "timeline_end": 6.4659930000000205
+        },
+        {
+          "word": "was",
+          "timeline_start": 6.4659930000000205,
+          "timeline_end": 6.645992999999999
+        },
+        {
+          "word": "a",
+          "timeline_start": 6.645992999999999,
+          "timeline_end": 6.8059929999999955
+        },
+        {
+          "word": "commissioned",
+          "timeline_start": 6.8059929999999955,
+          "timeline_end": 7.285993000000014
+        },
+        {
+          "word": "salesperson,",
+          "timeline_start": 7.285993000000014,
+          "timeline_end": 8.66599300000001
+        },
+        {
+          "word": "not",
+          "timeline_start": 9.085992999999997,
+          "timeline_end": 9.705993000000001
+        },
+        {
+          "word": "a",
+          "timeline_start": 9.705993000000001,
+          "timeline_end": 9.825993000000006
+        },
+        {
+          "word": "neutral",
+          "timeline_start": 9.825993000000006,
+          "timeline_end": 10.125993000000017
+        },
+        {
+          "word": "processor,",
+          "timeline_start": 10.125993000000017,
+          "timeline_end": 10.645992999999999
+        },
+        {
+          "word": "not",
+          "timeline_start": 11.125993000000017,
+          "timeline_end": 11.46599300000002
+        },
+        {
+          "word": "an",
+          "timeline_start": 11.46599300000002,
+          "timeline_end": 11.625993000000017
+        },
+        {
+          "word": "admin",
+          "timeline_start": 11.625993000000017,
+          "timeline_end": 12.16599300000001
+        },
+        {
+          "word": "clerk,",
+          "timeline_start": 12.16599300000001,
+          "timeline_end": 12.625993000000017
+        },
+        {
+          "word": "a",
+          "timeline_start": 13.265993000000003,
+          "timeline_end": 13.365992999999998
+        },
+        {
+          "word": "salesperson",
+          "timeline_start": 13.365992999999998,
+          "timeline_end": 14.065993000000015
+        },
+        {
+          "word": "with",
+          "timeline_start": 14.065993000000015,
+          "timeline_end": 14.245992999999993
+        },
+        {
+          "word": "their",
+          "timeline_start": 14.245992999999993,
+          "timeline_end": 14.385993000000008
+        },
+        {
+          "word": "own",
+          "timeline_start": 14.385993000000008,
+          "timeline_end": 14.68599300000002
+        },
+        {
+          "word": "word",
+          "timeline_start": 14.68599300000002,
+          "timeline_end": 15.005993000000013
+        },
+        {
+          "word": "tracks,",
+          "timeline_start": 15.005993000000013,
+          "timeline_end": 15.425993
+        },
+        {
+          "word": "their",
+          "timeline_start": 15.96599300000002,
+          "timeline_end": 16.065993000000013
+        },
+        {
+          "word": "own",
+          "timeline_start": 16.065993000000013,
+          "timeline_end": 16.22599300000001
+        },
+        {
+          "word": "pressure",
+          "timeline_start": 16.22599300000001,
+          "timeline_end": 16.545993000000003
+        },
+        {
+          "word": "techniques",
+          "timeline_start": 16.545993000000003,
+          "timeline_end": 16.985993
+        },
+        {
+          "word": "and",
+          "timeline_start": 16.985993,
+          "timeline_end": 17.565993000000013
+        },
+        {
+          "word": "their",
+          "timeline_start": 17.565993000000013,
+          "timeline_end": 17.685993000000018
+        },
+        {
+          "word": "own",
+          "timeline_start": 17.685993000000018,
+          "timeline_end": 17.925993
+        },
+        {
+          "word": "income,",
+          "timeline_start": 17.925993,
+          "timeline_end": 18.425993
+        },
+        {
+          "word": "depending",
+          "timeline_start": 18.46599300000002,
+          "timeline_end": 18.785993000000012
+        },
+        {
+          "word": "on",
+          "timeline_start": 18.785993000000012,
+          "timeline_end": 18.985993
+        },
+        {
+          "word": "what",
+          "timeline_start": 18.985993,
+          "timeline_end": 19.145992999999997
+        },
+        {
+          "word": "you",
+          "timeline_start": 19.145992999999997,
+          "timeline_end": 19.345993000000014
+        },
+        {
+          "word": "say",
+          "timeline_start": 19.345993000000014,
+          "timeline_end": 19.605993000000005
+        },
+        {
+          "word": "yes",
+          "timeline_start": 19.605993000000005,
+          "timeline_end": 20.00599300000001
+        },
+        {
+          "word": "to",
+          "timeline_start": 20.00599300000001,
+          "timeline_end": 20.545993000000003
+        },
+        {
+          "word": "before",
+          "timeline_start": 20.545993000000003,
+          "timeline_end": 21.46599300000002
+        },
+        {
+          "word": "you",
+          "timeline_start": 21.46599300000002,
+          "timeline_end": 21.885993000000006
+        },
+        {
+          "word": "leave",
+          "timeline_start": 21.885993000000006,
+          "timeline_end": 22.145992999999997
+        },
+        {
+          "word": "that",
+          "timeline_start": 22.145992999999997,
+          "timeline_end": 22.425993
+        },
+        {
+          "word": "room.",
+          "timeline_start": 22.425993,
+          "timeline_end": 22.845993000000014
+        },
+        {
+          "word": "The",
+          "timeline_start": 23.44599300000001,
+          "timeline_end": 23.625993000000015
+        },
+        {
+          "word": "customer",
+          "timeline_start": 23.625993000000015,
+          "timeline_end": 23.94599300000001
+        },
+        {
+          "word": "thinks",
+          "timeline_start": 23.94599300000001,
+          "timeline_end": 24.24599299999999
+        },
+        {
+          "word": "they",
+          "timeline_start": 24.24599299999999,
+          "timeline_end": 24.44599300000001
+        },
+        {
+          "word": "negotiated",
+          "timeline_start": 24.44599300000001,
+          "timeline_end": 25.045993000000003
+        },
+        {
+          "word": "with",
+          "timeline_start": 25.045993000000003,
+          "timeline_end": 25.345993000000014
+        },
+        {
+          "word": "one",
+          "timeline_start": 25.345993000000014,
+          "timeline_end": 25.625993000000015
+        },
+        {
+          "word": "person.",
+          "timeline_start": 25.625993000000015,
+          "timeline_end": 26.105993000000005
+        }
+      ]
+    },
+    {
+      "title": "Close",
+      "words": [
+        {
+          "word": "You",
+          "timeline_start": 26.692993,
+          "timeline_end": 26.796993
+        },
+        {
+          "word": "thought",
+          "timeline_start": 26.843993,
+          "timeline_end": 27.040993
+        },
+        {
+          "word": "you",
+          "timeline_start": 27.063993,
+          "timeline_end": 27.133993
+        },
+        {
+          "word": "negotiated",
+          "timeline_start": 27.214993,
+          "timeline_end": 27.853993000000003
+        },
+        {
+          "word": "with",
+          "timeline_start": 27.876993000000002,
+          "timeline_end": 28.015993
+        },
+        {
+          "word": "one.",
+          "timeline_start": 28.096993,
+          "timeline_end": 28.398993
+        },
+        {
+          "word": "You",
+          "timeline_start": 28.422993,
+          "timeline_end": 28.514993
+        },
+        {
+          "word": "negotiated",
+          "timeline_start": 28.561993,
+          "timeline_end": 29.211993
+        },
+        {
+          "word": "with",
+          "timeline_start": 29.257993,
+          "timeline_end": 29.385993
+        },
+        {
+          "word": "three.",
+          "timeline_start": 29.420993000000003,
+          "timeline_end": 29.919993
+        }
+      ]
+    }
+  ]
+}

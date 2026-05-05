@@ -1,0 +1,45 @@
+{
+  "text": "What happens after you agree on the price?",
+  "words": [
+    {
+      "word": "What",
+      "timeline_start": 0.046,
+      "timeline_end": 0.209
+    },
+    {
+      "word": "happens",
+      "timeline_start": 0.255,
+      "timeline_end": 0.65
+    },
+    {
+      "word": "after",
+      "timeline_start": 0.72,
+      "timeline_end": 0.952
+    },
+    {
+      "word": "you",
+      "timeline_start": 0.998,
+      "timeline_end": 1.08
+    },
+    {
+      "word": "agree",
+      "timeline_start": 1.149,
+      "timeline_end": 1.405
+    },
+    {
+      "word": "on",
+      "timeline_start": 1.451,
+      "timeline_end": 1.509
+    },
+    {
+      "word": "the",
+      "timeline_start": 1.544,
+      "timeline_end": 1.614
+    },
+    {
+      "word": "price?",
+      "timeline_start": 1.649,
+      "timeline_end": 2.194
+    }
+  ]
+}

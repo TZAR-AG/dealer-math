@@ -1,0 +1,444 @@
+{
+  "scenes": [
+    {
+      "title": "Open",
+      "words": [
+        {
+          "word": "How",
+          "timeline_start": 0.5700000000000001,
+          "timeline_end": 0.6970000000000001
+        },
+        {
+          "word": "much",
+          "timeline_start": 0.732,
+          "timeline_end": 0.9179999999999999
+        },
+        {
+          "word": "does",
+          "timeline_start": 0.964,
+          "timeline_end": 1.127
+        },
+        {
+          "word": "a",
+          "timeline_start": 1.197,
+          "timeline_end": 1.266
+        },
+        {
+          "word": "two",
+          "timeline_start": 1.359,
+          "timeline_end": 1.522
+        },
+        {
+          "word": "percent",
+          "timeline_start": 1.591,
+          "timeline_end": 1.94
+        },
+        {
+          "word": "rate",
+          "timeline_start": 2.009,
+          "timeline_end": 2.207
+        },
+        {
+          "word": "markup",
+          "timeline_start": 2.241,
+          "timeline_end": 2.613
+        },
+        {
+          "word": "actually",
+          "timeline_start": 2.741,
+          "timeline_end": 3.275
+        },
+        {
+          "word": "cost",
+          "timeline_start": 3.356,
+          "timeline_end": 3.646
+        },
+        {
+          "word": "you?",
+          "timeline_start": 3.728,
+          "timeline_end": 3.96
+        }
+      ]
+    },
+    {
+      "title": "Middle",
+      "words": [
+        {
+          "word": "you",
+          "timeline_start": 4.818632999999976,
+          "timeline_end": 4.978632999999973
+        },
+        {
+          "word": "only",
+          "timeline_start": 4.978632999999973,
+          "timeline_end": 5.15863299999998
+        },
+        {
+          "word": "find",
+          "timeline_start": 5.15863299999998,
+          "timeline_end": 5.498632999999983
+        },
+        {
+          "word": "out",
+          "timeline_start": 5.498632999999983,
+          "timeline_end": 5.718632999999982
+        },
+        {
+          "word": "the",
+          "timeline_start": 5.718632999999982,
+          "timeline_end": 5.898632999999989
+        },
+        {
+          "word": "floor",
+          "timeline_start": 5.898632999999989,
+          "timeline_end": 6.298632999999994
+        },
+        {
+          "word": "exists",
+          "timeline_start": 6.298632999999994,
+          "timeline_end": 6.898632999999989
+        },
+        {
+          "word": "if",
+          "timeline_start": 6.898632999999989,
+          "timeline_end": 7.318632999999976
+        },
+        {
+          "word": "you",
+          "timeline_start": 7.318632999999976,
+          "timeline_end": 7.498632999999983
+        },
+        {
+          "word": "push",
+          "timeline_start": 7.498632999999983,
+          "timeline_end": 7.8786329999999785
+        },
+        {
+          "word": "hard",
+          "timeline_start": 7.8786329999999785,
+          "timeline_end": 8.518632999999994
+        },
+        {
+          "word": "enough",
+          "timeline_start": 8.518632999999994,
+          "timeline_end": 8.758632999999975
+        },
+        {
+          "word": "to",
+          "timeline_start": 8.758632999999975,
+          "timeline_end": 9.318632999999977
+        },
+        {
+          "word": "get",
+          "timeline_start": 9.318632999999977,
+          "timeline_end": 9.558632999999986
+        },
+        {
+          "word": "there.",
+          "timeline_start": 9.558632999999986,
+          "timeline_end": 9.89863299999999
+        },
+        {
+          "word": "The",
+          "timeline_start": 10.198633000000001,
+          "timeline_end": 10.458632999999992
+        },
+        {
+          "word": "gap",
+          "timeline_start": 10.458632999999992,
+          "timeline_end": 10.618632999999988
+        },
+        {
+          "word": "between",
+          "timeline_start": 10.618632999999988,
+          "timeline_end": 11.018632999999994
+        },
+        {
+          "word": "where",
+          "timeline_start": 11.018632999999994,
+          "timeline_end": 11.278632999999985
+        },
+        {
+          "word": "they",
+          "timeline_start": 11.278632999999985,
+          "timeline_end": 11.418633
+        },
+        {
+          "word": "opened",
+          "timeline_start": 11.418633,
+          "timeline_end": 11.938632999999982
+        },
+        {
+          "word": "and",
+          "timeline_start": 11.938632999999982,
+          "timeline_end": 12.478632999999974
+        },
+        {
+          "word": "where",
+          "timeline_start": 12.478632999999974,
+          "timeline_end": 12.598632999999978
+        },
+        {
+          "word": "they",
+          "timeline_start": 12.598632999999978,
+          "timeline_end": 12.778632999999985
+        },
+        {
+          "word": "finally",
+          "timeline_start": 12.778632999999985,
+          "timeline_end": 13.15863299999998
+        },
+        {
+          "word": "wrote",
+          "timeline_start": 13.15863299999998,
+          "timeline_end": 13.518632999999994
+        },
+        {
+          "word": "the",
+          "timeline_start": 13.518632999999994,
+          "timeline_end": 13.858632999999998
+        },
+        {
+          "word": "deal,",
+          "timeline_start": 13.858632999999998,
+          "timeline_end": 14.258632999999975
+        },
+        {
+          "word": "that",
+          "timeline_start": 14.438632999999982,
+          "timeline_end": 14.738632999999993
+        },
+        {
+          "word": "spread",
+          "timeline_start": 14.738632999999993,
+          "timeline_end": 15.17863299999999
+        },
+        {
+          "word": "multiplied",
+          "timeline_start": 15.17863299999999,
+          "timeline_end": 15.838632999999987
+        },
+        {
+          "word": "across",
+          "timeline_start": 15.838632999999987,
+          "timeline_end": 16.138633
+        },
+        {
+          "word": "the",
+          "timeline_start": 16.138633,
+          "timeline_end": 16.338632999999987
+        },
+        {
+          "word": "entire",
+          "timeline_start": 16.338632999999987,
+          "timeline_end": 16.818632999999977
+        },
+        {
+          "word": "loan",
+          "timeline_start": 16.818632999999977,
+          "timeline_end": 17.098632999999978
+        },
+        {
+          "word": "term",
+          "timeline_start": 17.098632999999978,
+          "timeline_end": 17.518632999999994
+        },
+        {
+          "word": "is",
+          "timeline_start": 17.518632999999994,
+          "timeline_end": 18.018632999999994
+        },
+        {
+          "word": "dealer",
+          "timeline_start": 18.018632999999994,
+          "timeline_end": 18.358632999999998
+        },
+        {
+          "word": "commission",
+          "timeline_start": 18.358632999999998,
+          "timeline_end": 18.818632999999977
+        },
+        {
+          "word": "paid",
+          "timeline_start": 18.818632999999977,
+          "timeline_end": 19.578632999999996
+        },
+        {
+          "word": "by",
+          "timeline_start": 19.578632999999996,
+          "timeline_end": 19.958632999999992
+        },
+        {
+          "word": "the",
+          "timeline_start": 19.958632999999992,
+          "timeline_end": 20.078632999999996
+        },
+        {
+          "word": "lender.",
+          "timeline_start": 20.078632999999996,
+          "timeline_end": 20.358632999999998
+        },
+        {
+          "word": "To",
+          "timeline_start": 20.838632999999987,
+          "timeline_end": 20.998632999999984
+        },
+        {
+          "word": "put",
+          "timeline_start": 20.998632999999984,
+          "timeline_end": 21.138633
+        },
+        {
+          "word": "numbers",
+          "timeline_start": 21.138633,
+          "timeline_end": 21.318632999999977
+        },
+        {
+          "word": "on",
+          "timeline_start": 21.318632999999977,
+          "timeline_end": 21.598632999999978
+        },
+        {
+          "word": "it,",
+          "timeline_start": 21.598632999999978,
+          "timeline_end": 21.858632999999998
+        },
+        {
+          "word": "if",
+          "timeline_start": 22.138633,
+          "timeline_end": 22.338632999999987
+        },
+        {
+          "word": "you",
+          "timeline_start": 22.338632999999987,
+          "timeline_end": 22.478632999999974
+        },
+        {
+          "word": "borrow",
+          "timeline_start": 22.478632999999974,
+          "timeline_end": 22.65863299999998
+        },
+        {
+          "word": "$40",
+          "timeline_start": 22.65863299999998,
+          "timeline_end": 23.038632999999976
+        },
+        {
+          "word": ",000",
+          "timeline_start": 23.038632999999976,
+          "timeline_end": 23.578632999999996
+        },
+        {
+          "word": "over",
+          "timeline_start": 23.578632999999996,
+          "timeline_end": 23.798632999999995
+        },
+        {
+          "word": "five",
+          "timeline_start": 23.798632999999995,
+          "timeline_end": 24.098632999999978
+        },
+        {
+          "word": "years",
+          "timeline_start": 24.098632999999978,
+          "timeline_end": 24.37863299999998
+        },
+        {
+          "word": "and",
+          "timeline_start": 24.37863299999998,
+          "timeline_end": 24.67863299999999
+        },
+        {
+          "word": "the",
+          "timeline_start": 24.67863299999999,
+          "timeline_end": 24.818632999999977
+        },
+        {
+          "word": "rate",
+          "timeline_start": 24.818632999999977,
+          "timeline_end": 25.058632999999986
+        },
+        {
+          "word": "markup",
+          "timeline_start": 25.058632999999986,
+          "timeline_end": 25.358632999999998
+        },
+        {
+          "word": "is",
+          "timeline_start": 25.358632999999998,
+          "timeline_end": 25.67863299999999
+        },
+        {
+          "word": "two",
+          "timeline_start": 25.67863299999999,
+          "timeline_end": 25.89863299999999
+        },
+        {
+          "word": "percentage",
+          "timeline_start": 25.89863299999999,
+          "timeline_end": 26.258632999999975
+        },
+        {
+          "word": "points,",
+          "timeline_start": 26.258632999999975,
+          "timeline_end": 26.718632999999983
+        }
+      ]
+    },
+    {
+      "title": "Close",
+      "words": [
+        {
+          "word": "Two",
+          "timeline_start": 27.487632999999995,
+          "timeline_end": 27.662632999999996
+        },
+        {
+          "word": "percent.",
+          "timeline_start": 27.731632999999995,
+          "timeline_end": 28.242632999999994
+        },
+        {
+          "word": "Three",
+          "timeline_start": 28.474632999999997,
+          "timeline_end": 28.776632999999997
+        },
+        {
+          "word": "thousand",
+          "timeline_start": 28.811632999999997,
+          "timeline_end": 29.101632999999996
+        },
+        {
+          "word": "dollars.",
+          "timeline_start": 29.136632999999996,
+          "timeline_end": 29.635632999999995
+        },
+        {
+          "word": "That's",
+          "timeline_start": 29.763632999999995,
+          "timeline_end": 29.984632999999995
+        },
+        {
+          "word": "how",
+          "timeline_start": 30.018632999999994,
+          "timeline_end": 30.100632999999995
+        },
+        {
+          "word": "it",
+          "timeline_start": 30.169632999999997,
+          "timeline_end": 30.239632999999998
+        },
+        {
+          "word": "adds",
+          "timeline_start": 30.262632999999997,
+          "timeline_end": 30.483632999999998
+        },
+        {
+          "word": "up.",
+          "timeline_start": 30.576632999999994,
+          "timeline_end": 30.901632999999997
+        }
+      ]
+    }
+  ]
+}

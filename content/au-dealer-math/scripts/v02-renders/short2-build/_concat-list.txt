@@ -1,0 +1,4 @@
+file 'C:/dev/Claude/content/au-dealer-math/scripts/v02-renders/short2-build/01-hook-card.mp4'
+file 'C:/dev/Claude/content/au-dealer-math/scripts/v02-renders/short2-build/02-open.mp4'
+file 'C:/dev/Claude/content/au-dealer-math/scripts/v02-renders/short2-build/03-middle.mp4'
+file 'C:/dev/Claude/content/au-dealer-math/scripts/v02-renders/short2-build/04-close.mp4'

@@ -1,0 +1,329 @@
+{
+  "scenes": [
+    {
+      "title": "Open",
+      "words": [
+        {
+          "word": "Same",
+          "timeline_start": 0.535,
+          "timeline_end": 0.848
+        },
+        {
+          "word": "bank.",
+          "timeline_start": 0.895,
+          "timeline_end": 1.359
+        },
+        {
+          "word": "Same",
+          "timeline_start": 1.673,
+          "timeline_end": 1.963
+        },
+        {
+          "word": "approval.",
+          "timeline_start": 1.998,
+          "timeline_end": 2.636
+        },
+        {
+          "word": "Why",
+          "timeline_start": 2.868,
+          "timeline_end": 3.089
+        },
+        {
+          "word": "do",
+          "timeline_start": 3.124,
+          "timeline_end": 3.194
+        },
+        {
+          "word": "two",
+          "timeline_start": 3.24,
+          "timeline_end": 3.402
+        },
+        {
+          "word": "buyers",
+          "timeline_start": 3.472,
+          "timeline_end": 3.844
+        },
+        {
+          "word": "walk",
+          "timeline_start": 3.925,
+          "timeline_end": 4.146
+        },
+        {
+          "word": "out",
+          "timeline_start": 4.227,
+          "timeline_end": 4.343
+        },
+        {
+          "word": "with",
+          "timeline_start": 4.378,
+          "timeline_end": 4.494
+        },
+        {
+          "word": "different",
+          "timeline_start": 4.529,
+          "timeline_end": 4.819
+        },
+        {
+          "word": "rates?",
+          "timeline_start": 4.854,
+          "timeline_end": 5.492
+        }
+      ]
+    },
+    {
+      "title": "Middle",
+      "words": [
+        {
+          "word": "on",
+          "timeline_start": 6.231829999999986,
+          "timeline_end": 6.391830000000011
+        },
+        {
+          "word": "some",
+          "timeline_start": 6.391830000000011,
+          "timeline_end": 6.751829999999968
+        },
+        {
+          "word": "objective",
+          "timeline_start": 6.751829999999968,
+          "timeline_end": 7.571830000000018
+        },
+        {
+          "word": "fair",
+          "timeline_start": 7.571830000000018,
+          "timeline_end": 8.05182999999998
+        },
+        {
+          "word": "rate",
+          "timeline_start": 8.05182999999998,
+          "timeline_end": 8.411829999999993
+        },
+        {
+          "word": "the",
+          "timeline_start": 8.411829999999993,
+          "timeline_end": 8.671829999999984
+        },
+        {
+          "word": "finance",
+          "timeline_start": 8.671829999999984,
+          "timeline_end": 9.031829999999998
+        },
+        {
+          "word": "manager",
+          "timeline_start": 9.031829999999998,
+          "timeline_end": 9.471829999999995
+        },
+        {
+          "word": "arrived",
+          "timeline_start": 9.471829999999995,
+          "timeline_end": 9.85182999999999
+        },
+        {
+          "word": "at",
+          "timeline_start": 9.85182999999999,
+          "timeline_end": 10.231829999999986
+        },
+        {
+          "word": "on",
+          "timeline_start": 10.231829999999986,
+          "timeline_end": 11.011830000000016
+        },
+        {
+          "word": "your",
+          "timeline_start": 11.011830000000016,
+          "timeline_end": 11.171829999999984
+        },
+        {
+          "word": "pushback.",
+          "timeline_start": 11.171829999999984,
+          "timeline_end": 11.691829999999966
+        },
+        {
+          "word": "The",
+          "timeline_start": 11.691829999999966,
+          "timeline_end": 12.211830000000004
+        },
+        {
+          "word": "customer",
+          "timeline_start": 12.211830000000004,
+          "timeline_end": 12.531829999999998
+        },
+        {
+          "word": "who",
+          "timeline_start": 12.531829999999998,
+          "timeline_end": 12.791829999999988
+        },
+        {
+          "word": "says",
+          "timeline_start": 12.791829999999988,
+          "timeline_end": 13.011830000000016
+        },
+        {
+          "word": "9",
+          "timeline_start": 13.011830000000016,
+          "timeline_end": 13.491829999999977
+        },
+        {
+          "word": "%",
+          "timeline_start": 13.491829999999977,
+          "timeline_end": 13.911829999999993
+        },
+        {
+          "word": "sounds",
+          "timeline_start": 13.911829999999993,
+          "timeline_end": 14.35182999999999
+        },
+        {
+          "word": "fine",
+          "timeline_start": 14.35182999999999,
+          "timeline_end": 14.81182999999997
+        },
+        {
+          "word": "pays",
+          "timeline_start": 14.81182999999997,
+          "timeline_end": 15.231829999999986
+        },
+        {
+          "word": "more",
+          "timeline_start": 15.231829999999986,
+          "timeline_end": 15.751829999999968
+        },
+        {
+          "word": "than",
+          "timeline_start": 15.751829999999968,
+          "timeline_end": 16.011830000000018
+        },
+        {
+          "word": "the",
+          "timeline_start": 16.011830000000018,
+          "timeline_end": 16.171829999999986
+        },
+        {
+          "word": "customer",
+          "timeline_start": 16.171829999999986,
+          "timeline_end": 16.55182999999998
+        },
+        {
+          "word": "who",
+          "timeline_start": 16.55182999999998,
+          "timeline_end": 16.79182999999999
+        },
+        {
+          "word": "says,",
+          "timeline_start": 16.79182999999999,
+          "timeline_end": 17.07183000000002
+        },
+        {
+          "word": "what's",
+          "timeline_start": 17.191829999999968,
+          "timeline_end": 17.83183000000001
+        },
+        {
+          "word": "the",
+          "timeline_start": 17.83183000000001,
+          "timeline_end": 17.971829999999997
+        },
+        {
+          "word": "lowest",
+          "timeline_start": 17.971829999999997,
+          "timeline_end": 18.25182999999997
+        },
+        {
+          "word": "rate",
+          "timeline_start": 18.25182999999997,
+          "timeline_end": 18.511830000000018
+        },
+        {
+          "word": "available?",
+          "timeline_start": 18.511830000000018,
+          "timeline_end": 18.891830000000013
+        },
+        {
+          "word": "Same",
+          "timeline_start": 19.79182999999999,
+          "timeline_end": 19.971829999999997
+        },
+        {
+          "word": "bank,",
+          "timeline_start": 19.971829999999997,
+          "timeline_end": 20.33183000000001
+        },
+        {
+          "word": "same",
+          "timeline_start": 20.851829999999993,
+          "timeline_end": 21.09183
+        },
+        {
+          "word": "approval,",
+          "timeline_start": 21.09183,
+          "timeline_end": 21.55182999999998
+        },
+        {
+          "word": "different",
+          "timeline_start": 22.03183,
+          "timeline_end": 22.391830000000013
+        },
+        {
+          "word": "outcomes.",
+          "timeline_start": 22.391830000000013,
+          "timeline_end": 22.891830000000013
+        },
+        {
+          "word": "That's",
+          "timeline_start": 23.33183000000001,
+          "timeline_end": 23.651830000000004
+        },
+        {
+          "word": "not",
+          "timeline_start": 23.651830000000004,
+          "timeline_end": 23.811829999999972
+        },
+        {
+          "word": "a",
+          "timeline_start": 23.811829999999972,
+          "timeline_end": 23.931829999999977
+        },
+        {
+          "word": "conspiracy.",
+          "timeline_start": 23.931829999999977,
+          "timeline_end": 24.351829999999993
+        }
+      ]
+    },
+    {
+      "title": "Close",
+      "words": [
+        {
+          "word": "Same",
+          "timeline_start": 25.309829999999994,
+          "timeline_end": 25.611829999999994
+        },
+        {
+          "word": "bank.",
+          "timeline_start": 25.646829999999994,
+          "timeline_end": 26.040829999999993
+        },
+        {
+          "word": "Same",
+          "timeline_start": 26.203829999999993,
+          "timeline_end": 26.481829999999995
+        },
+        {
+          "word": "approval.",
+          "timeline_start": 26.505829999999996,
+          "timeline_end": 27.074829999999995
+        },
+        {
+          "word": "Different",
+          "timeline_start": 27.201829999999994,
+          "timeline_end": 27.503829999999994
+        },
+        {
+          "word": "outcomes.",
+          "timeline_start": 27.526829999999993,
+          "timeline_end": 28.142829999999993
+        }
+      ]
+    }
+  ]
+}

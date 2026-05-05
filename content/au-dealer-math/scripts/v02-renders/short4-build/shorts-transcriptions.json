@@ -1,0 +1,329 @@
+{
+  "scenes": [
+    {
+      "title": "Open",
+      "words": [
+        {
+          "word": "There's",
+          "timeline_start": 0.581,
+          "timeline_end": 0.767
+        },
+        {
+          "word": "a",
+          "timeline_start": 0.79,
+          "timeline_end": 0.813
+        },
+        {
+          "word": "room",
+          "timeline_start": 0.848,
+          "timeline_end": 1.0110000000000001
+        },
+        {
+          "word": "before",
+          "timeline_start": 1.057,
+          "timeline_end": 1.3479999999999999
+        },
+        {
+          "word": "the",
+          "timeline_start": 1.371,
+          "timeline_end": 1.487
+        },
+        {
+          "word": "F",
+          "timeline_start": 1.557,
+          "timeline_end": 1.789
+        },
+        {
+          "word": "and",
+          "timeline_start": 2.056,
+          "timeline_end": 2.334
+        },
+        {
+          "word": "I",
+          "timeline_start": 2.404,
+          "timeline_end": 2.439
+        },
+        {
+          "word": "office",
+          "timeline_start": 2.532,
+          "timeline_end": 2.892
+        },
+        {
+          "word": "most",
+          "timeline_start": 2.938,
+          "timeline_end": 3.124
+        },
+        {
+          "word": "buyers",
+          "timeline_start": 3.17,
+          "timeline_end": 3.577
+        },
+        {
+          "word": "don't",
+          "timeline_start": 3.704,
+          "timeline_end": 3.948
+        },
+        {
+          "word": "notice.",
+          "timeline_start": 4.018,
+          "timeline_end": 4.54
+        }
+      ]
+    },
+    {
+      "title": "Middle",
+      "words": [
+        {
+          "word": "The",
+          "timeline_start": 5.123911999999995,
+          "timeline_end": 5.323912000000041
+        },
+        {
+          "word": "aftercare",
+          "timeline_start": 5.323912000000041,
+          "timeline_end": 6.203912000000036
+        },
+        {
+          "word": "manager's",
+          "timeline_start": 6.203912000000036,
+          "timeline_end": 7.323912000000041
+        },
+        {
+          "word": "room.",
+          "timeline_start": 7.323912000000041,
+          "timeline_end": 7.643912000000091
+        },
+        {
+          "word": "Paint",
+          "timeline_start": 8.443912000000045,
+          "timeline_end": 8.603912000000014
+        },
+        {
+          "word": "protection,",
+          "timeline_start": 8.603912000000014,
+          "timeline_end": 9.103912000000014
+        },
+        {
+          "word": "window",
+          "timeline_start": 10.023912000000086,
+          "timeline_end": 10.163912000000073
+        },
+        {
+          "word": "tint,",
+          "timeline_start": 10.163912000000073,
+          "timeline_end": 10.583912000000032
+        },
+        {
+          "word": "interior",
+          "timeline_start": 11.06391200000005,
+          "timeline_end": 11.463912000000027
+        },
+        {
+          "word": "protection",
+          "timeline_start": 11.463912000000027,
+          "timeline_end": 12.303912000000059
+        },
+        {
+          "word": "on",
+          "timeline_start": 12.303912000000059,
+          "timeline_end": 13.00391199999999
+        },
+        {
+          "word": "dash",
+          "timeline_start": 13.00391199999999,
+          "timeline_end": 13.423912000000064
+        },
+        {
+          "word": "cameras.",
+          "timeline_start": 13.423912000000064,
+          "timeline_end": 14.123911999999995
+        },
+        {
+          "word": "A",
+          "timeline_start": 14.903912000000082,
+          "timeline_end": 15.103912000000014
+        },
+        {
+          "word": "package",
+          "timeline_start": 15.103912000000014,
+          "timeline_end": 15.483912000000009
+        },
+        {
+          "word": "that",
+          "timeline_start": 15.483912000000009,
+          "timeline_end": 15.843912000000023
+        },
+        {
+          "word": "can",
+          "timeline_start": 15.843912000000023,
+          "timeline_end": 15.983912000000009
+        },
+        {
+          "word": "sit",
+          "timeline_start": 15.983912000000009,
+          "timeline_end": 16.243912
+        },
+        {
+          "word": "anywhere",
+          "timeline_start": 16.243912,
+          "timeline_end": 16.623911999999997
+        },
+        {
+          "word": "from",
+          "timeline_start": 16.623911999999997,
+          "timeline_end": 16.943912000000047
+        },
+        {
+          "word": "$1",
+          "timeline_start": 16.943912000000047,
+          "timeline_end": 17.183912000000056
+        },
+        {
+          "word": ",500",
+          "timeline_start": 17.183912000000056,
+          "timeline_end": 17.54391200000007
+        },
+        {
+          "word": "to",
+          "timeline_start": 17.54391200000007,
+          "timeline_end": 18.323912000000043
+        },
+        {
+          "word": "$3",
+          "timeline_start": 18.323912000000043,
+          "timeline_end": 18.78391200000008
+        },
+        {
+          "word": ",000",
+          "timeline_start": 18.78391200000008,
+          "timeline_end": 19.28391200000008
+        },
+        {
+          "word": "on",
+          "timeline_start": 19.683912000000056,
+          "timeline_end": 20.003911999999993
+        },
+        {
+          "word": "the",
+          "timeline_start": 20.003911999999993,
+          "timeline_end": 20.143912000000093
+        },
+        {
+          "word": "invoice",
+          "timeline_start": 20.143912000000093,
+          "timeline_end": 20.583912000000034
+        },
+        {
+          "word": "at",
+          "timeline_start": 20.583912000000034,
+          "timeline_end": 21.263912000000097
+        },
+        {
+          "word": "margins",
+          "timeline_start": 21.263912000000097,
+          "timeline_end": 21.823912000000043
+        },
+        {
+          "word": "that",
+          "timeline_start": 21.823912000000043,
+          "timeline_end": 22.22391200000002
+        },
+        {
+          "word": "make",
+          "timeline_start": 22.22391200000002,
+          "timeline_end": 22.503911999999993
+        },
+        {
+          "word": "the",
+          "timeline_start": 22.503911999999993,
+          "timeline_end": 22.72391200000002
+        },
+        {
+          "word": "front",
+          "timeline_start": 22.72391200000002,
+          "timeline_end": 23.023912000000088
+        },
+        {
+          "word": "end",
+          "timeline_start": 23.023912000000088,
+          "timeline_end": 23.263912000000097
+        },
+        {
+          "word": "gross",
+          "timeline_start": 23.263912000000097,
+          "timeline_end": 23.683912000000056
+        },
+        {
+          "word": "look",
+          "timeline_start": 23.683912000000056,
+          "timeline_end": 24.003911999999993
+        },
+        {
+          "word": "modest.",
+          "timeline_start": 24.003911999999993,
+          "timeline_end": 24.363912000000006
+        }
+      ]
+    },
+    {
+      "title": "Close",
+      "words": [
+        {
+          "word": "Three",
+          "timeline_start": 24.97891200000008,
+          "timeline_end": 25.21091200000008
+        },
+        {
+          "word": "thousand",
+          "timeline_start": 25.24591200000008,
+          "timeline_end": 25.523912000000077
+        },
+        {
+          "word": "dollars.",
+          "timeline_start": 25.558912000000078,
+          "timeline_end": 25.97691200000008
+        },
+        {
+          "word": "One",
+          "timeline_start": 26.10491200000008,
+          "timeline_end": 26.31391200000008
+        },
+        {
+          "word": "room.",
+          "timeline_start": 26.34891200000008,
+          "timeline_end": 26.66191200000008
+        },
+        {
+          "word": "Most",
+          "timeline_start": 27.02191200000008,
+          "timeline_end": 27.26591200000008
+        },
+        {
+          "word": "buyers",
+          "timeline_start": 27.311912000000078,
+          "timeline_end": 27.57891200000008
+        },
+        {
+          "word": "don't",
+          "timeline_start": 27.613912000000077,
+          "timeline_end": 27.76491200000008
+        },
+        {
+          "word": "even",
+          "timeline_start": 27.78791200000008,
+          "timeline_end": 27.927912000000077
+        },
+        {
+          "word": "notice",
+          "timeline_start": 27.96191200000008,
+          "timeline_end": 28.28791200000008
+        },
+        {
+          "word": "it.",
+          "timeline_start": 28.33391200000008,
+          "timeline_end": 28.56591200000008
+        }
+      ]
+    }
+  ]
+}

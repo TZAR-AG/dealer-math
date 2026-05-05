@@ -79,11 +79,23 @@ def main():
     filter_complex = ";".join(parts)
     final_label = prev_label
 
+    # 2026-05-05: append mono->stereo upmix BEFORE export. ElevenLabs renders
+    # mono. DaVinci on a stereo timeline puts mono on LEFT only — silent right.
+    # Fix: explicitly upmix master VO to stereo via pan=stereo|c0=c0|c1=c0.
+    # See feedback_audm_mono_vo_stereo_upmix_2026-05-05.md
+    filter_complex_stereo = (
+        f"{filter_complex};"
+        f"[{final_label}]aformat=channel_layouts=mono,"
+        f"pan=stereo|c0=c0|c1=c0,"
+        f"aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo"
+        f"[aout]"
+    )
+
     cmd = [
         FFMPEG, "-y", "-loglevel", "error",
         *inputs,
-        "-filter_complex", filter_complex,
-        "-map", f"[{final_label}]",
+        "-filter_complex", filter_complex_stereo,
+        "-map", "[aout]",
         "-c:a", "libmp3lame", "-b:a", "192k", "-ar", "44100",
         str(OUT),
     ]

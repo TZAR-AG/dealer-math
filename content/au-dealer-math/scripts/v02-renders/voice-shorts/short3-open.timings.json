@@ -1,0 +1,70 @@
+{
+  "text": "Same bank. Same approval. Why do two buyers walk out with different rates?",
+  "words": [
+    {
+      "word": "Same",
+      "timeline_start": 0.035,
+      "timeline_end": 0.348
+    },
+    {
+      "word": "bank.",
+      "timeline_start": 0.395,
+      "timeline_end": 0.859
+    },
+    {
+      "word": "Same",
+      "timeline_start": 1.173,
+      "timeline_end": 1.463
+    },
+    {
+      "word": "approval.",
+      "timeline_start": 1.498,
+      "timeline_end": 2.136
+    },
+    {
+      "word": "Why",
+      "timeline_start": 2.368,
+      "timeline_end": 2.589
+    },
+    {
+      "word": "do",
+      "timeline_start": 2.624,
+      "timeline_end": 2.694
+    },
+    {
+      "word": "two",
+      "timeline_start": 2.74,
+      "timeline_end": 2.902
+    },
+    {
+      "word": "buyers",
+      "timeline_start": 2.972,
+      "timeline_end": 3.344
+    },
+    {
+      "word": "walk",
+      "timeline_start": 3.425,
+      "timeline_end": 3.646
+    },
+    {
+      "word": "out",
+      "timeline_start": 3.727,
+      "timeline_end": 3.843
+    },
+    {
+      "word": "with",
+      "timeline_start": 3.878,
+      "timeline_end": 3.994
+    },
+    {
+      "word": "different",
+      "timeline_start": 4.029,
+      "timeline_end": 4.319
+    },
+    {
+      "word": "rates?",
+      "timeline_start": 4.354,
+      "timeline_end": 4.992
+    }
+  ]
+}

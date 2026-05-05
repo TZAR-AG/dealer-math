@@ -1,0 +1,54 @@
+{
+  "spec_path": "c:/dev/Claude/content/au-dealer-math/uploads/v02-shorts-batch.json",
+  "dry_run": false,
+  "total": 5,
+  "completed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "index": 0,
+      "title": "What dealers do in the F&I office",
+      "file": "video/out/shorts/audm-v2-short-1.mp4",
+      "schedule": "2026-05-05T21:00:00+08:00",
+      "status": "uploaded",
+      "startedAt": "2026-05-05T02:20:12.992Z",
+      "finishedAt": "2026-05-05T02:20:19.820Z"
+    },
+    {
+      "index": 1,
+      "title": "Why a 2 percent markup costs you $3,000",
+      "file": "video/out/shorts/audm-v2-short-2.mp4",
+      "schedule": "2026-05-06T21:00:00+08:00",
+      "status": "uploaded",
+      "startedAt": "2026-05-05T02:20:19.820Z",
+      "finishedAt": "2026-05-05T02:20:28.655Z"
+    },
+    {
+      "index": 2,
+      "title": "Same bank, same approval, different rates",
+      "file": "video/out/shorts/audm-v2-short-3.mp4",
+      "schedule": "2026-05-07T21:00:00+08:00",
+      "status": "uploaded",
+      "startedAt": "2026-05-05T02:20:28.655Z",
+      "finishedAt": "2026-05-05T02:20:35.780Z"
+    },
+    {
+      "index": 3,
+      "title": "$3,000 in the room before F&I",
+      "file": "video/out/shorts/audm-v2-short-4.mp4",
+      "schedule": "2026-05-08T21:00:00+08:00",
+      "status": "uploaded",
+      "startedAt": "2026-05-05T02:20:35.780Z",
+      "finishedAt": "2026-05-05T02:20:43.467Z"
+    },
+    {
+      "index": 4,
+      "title": "You negotiated with three, not one",
+      "file": "video/out/shorts/audm-v2-short-5.mp4",
+      "schedule": "2026-05-09T21:00:00+08:00",
+      "status": "uploaded",
+      "startedAt": "2026-05-05T02:20:43.467Z",
+      "finishedAt": "2026-05-05T02:20:51.208Z"
+    }
+  ]
+}

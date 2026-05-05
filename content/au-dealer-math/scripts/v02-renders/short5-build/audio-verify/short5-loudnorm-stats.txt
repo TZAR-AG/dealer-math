@@ -1,0 +1,16 @@
+Short 5 — three-rooms
+Final: C:\dev\Claude\video\out\shorts\audm-v2-short-5.mp4
+Duration: 30.67s
+Integrated LUFS: -14.2
+True peak dBFS: -0.8
+
+--- audio stream ---
+codec_name=aac
+sample_rate=48000
+channels=2
+bit_rate=194460
+
+--- seam timestamps (post-acrossfade) ---
+hook->open:    t≈0.450s
+open->middle:  t≈4.142s
+middle->close: t≈26.417s

@@ -1,0 +1,16 @@
+Short 3 — same-bank-different-outcomes
+Final: C:\dev\Claude\video\out\shorts\audm-v2-short-3.mp4
+Duration: 28.88s
+Integrated LUFS: -14.3
+True peak dBFS: -0.8
+
+--- audio stream ---
+codec_name=aac
+sample_rate=48000
+channels=2
+bit_rate=194333
+
+--- seam timestamps (post-acrossfade) ---
+hook->open:    t≈0.450s
+open->middle:  t≈5.808s
+middle->close: t≈25.042s

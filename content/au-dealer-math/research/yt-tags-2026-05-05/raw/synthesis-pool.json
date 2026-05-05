@@ -1,0 +1,2907 @@
+{
+  "competitor_tag_pool": [
+    {
+      "tag": "auto expert",
+      "frequency": 3,
+      "sources": [
+        "cadogan_eofm",
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "car expert",
+      "frequency": 3,
+      "sources": [
+        "cadogan_eofm",
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "cheap new car",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "discount new cars",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "buying a new car",
+      "frequency": 2,
+      "sources": [
+        "cadogan_eofm",
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "how to buy a new car",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "new car buying tips",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "automotive expert",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "motoring expert",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "john cadogan",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "john cadogan 2ue",
+      "frequency": 2,
+      "sources": [
+        "cadogan_top10_beat",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "car dealer",
+      "frequency": 2,
+      "sources": [
+        "cadogan_eofm",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "autoexpert.com.au",
+      "frequency": 2,
+      "sources": [
+        "cadogan_eofm",
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "used car prices",
+      "frequency": 2,
+      "sources": [
+        "lopez_banks_trouble",
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "used car market",
+      "frequency": 2,
+      "sources": [
+        "lopez_banks_trouble",
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "lucky lopez",
+      "frequency": 2,
+      "sources": [
+        "lopez_banks_trouble",
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "used car prices going down",
+      "frequency": 2,
+      "sources": [
+        "lopez_banks_trouble",
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "used car prices falling",
+      "frequency": 2,
+      "sources": [
+        "lopez_banks_trouble",
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "cars",
+      "frequency": 2,
+      "sources": [
+        "lopez_banks_trouble",
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "f&i manager",
+      "frequency": 2,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "f&i training",
+      "frequency": 2,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "f&i manager training",
+      "frequency": 2,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "finance manager",
+      "frequency": 2,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "buy",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "car dealership (organization type)",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "cheap new cars",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "10 tips and tricks to buy a discount new car",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "how to beat a car dealer",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "new car buying tips and techniques",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "john cadogan radio 2ue",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "automobile (industry)",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "how-to (media genre)",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "automotive industry (industry)",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top10_beat"
+      ]
+    },
+    {
+      "tag": "car dealership (industry)",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "automobile (tv genre)",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "car sales",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "beat a car dealer",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "beat car dealers",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "car salesman",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "used car dealers",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "used cars for sale",
+      "frequency": 1,
+      "sources": [
+        "cadogan_top20_beat"
+      ]
+    },
+    {
+      "tag": "beat car dealer",
+      "frequency": 1,
+      "sources": [
+        "cadogan_eofm"
+      ]
+    },
+    {
+      "tag": "new car",
+      "frequency": 1,
+      "sources": [
+        "cadogan_eofm"
+      ]
+    },
+    {
+      "tag": "save thousands on a new car",
+      "frequency": 1,
+      "sources": [
+        "cadogan_eofm"
+      ]
+    },
+    {
+      "tag": "john caogan",
+      "frequency": 1,
+      "sources": [
+        "cadogan_eofm"
+      ]
+    },
+    {
+      "tag": "discount new car",
+      "frequency": 1,
+      "sources": [
+        "cadogan_eofm"
+      ]
+    },
+    {
+      "tag": "australia",
+      "frequency": 1,
+      "sources": [
+        "cadogan_eofm"
+      ]
+    },
+    {
+      "tag": "car dealership negotiation",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "dealers are not selling cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "new car prices",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "used car market bubble popped",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "car questions answered",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "flying wheels",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "car edge",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "graham stephan",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "hoovies garage",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "andrei jikh",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "cheap cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "cash cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "flipping cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "car flipping",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "car market crash",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "car market",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "car prices",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "dealer auto auction",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "auto loan crisis",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "no sale",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "dealerships can't sell cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_refuse_lower"
+      ]
+    },
+    {
+      "tag": "car buying tips",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "used cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "used car buying tips",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "used car bubble",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "used car market crash",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "falling used car prices",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "new car prices falling",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "used cars market",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "dealership",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "dealer scams",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "over prices cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "overpriced cars",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "forbes",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "cnn",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "fox new",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "forbes lucky lopez",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "barrons lucky lopez",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "cnn lucky lopez",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "fox new lucky lopez",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "automotive expert lucky lopez",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "car",
+      "frequency": 1,
+      "sources": [
+        "lopez_banks_trouble"
+      ]
+    },
+    {
+      "tag": "pay plan",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "payplan",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "f&i pay plan",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "f&i payplan",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "automotive finance payplan",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "automotive pay plan",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "car dealership pay plan",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "how f&i managers are paid",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "f&i pay percentage",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "f&i reserve",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "f&i product",
+      "frequency": 1,
+      "sources": [
+        "fi_pay_plan"
+      ]
+    },
+    {
+      "tag": "how to be a good f&i manager",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "finance manager car dealer",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "how to be a good finance manager",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "f and i",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "f and i certification",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "leadership skills",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "personal development",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "sales training",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "finance manager training",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "business success",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "car dealership",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "career development",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "professional growth",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "dealership management",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    },
+    {
+      "tag": "finance and insurance",
+      "frequency": 1,
+      "sources": [
+        "fi_top1_routine"
+      ]
+    }
+  ],
+  "autocomplete_pool": [
+    {
+      "tag": "car loan australia",
+      "frequency": 4
+    },
+    {
+      "tag": "best car loan australia",
+      "frequency": 3
+    },
+    {
+      "tag": "car dealer tricks",
+      "frequency": 3
+    },
+    {
+      "tag": "car salesman tricks",
+      "frequency": 3
+    },
+    {
+      "tag": "car loan tricks",
+      "frequency": 3
+    },
+    {
+      "tag": "car finance australia",
+      "frequency": 2
+    },
+    {
+      "tag": "car loan in australia for students",
+      "frequency": 2
+    },
+    {
+      "tag": "finance manager car dealer tips",
+      "frequency": 2
+    },
+    {
+      "tag": "dealership finance manager training",
+      "frequency": 2
+    },
+    {
+      "tag": "finance manager car dealer training",
+      "frequency": 2
+    },
+    {
+      "tag": "finance manager car dealer",
+      "frequency": 2
+    },
+    {
+      "tag": "finance manager car dealership",
+      "frequency": 2
+    },
+    {
+      "tag": "car dealer tricks and scams",
+      "frequency": 2
+    },
+    {
+      "tag": "car salesman tricks to avoid",
+      "frequency": 2
+    },
+    {
+      "tag": "car dealer tips and tricks",
+      "frequency": 2
+    },
+    {
+      "tag": "car buying guide australia",
+      "frequency": 2
+    },
+    {
+      "tag": "buying car in australia as international students",
+      "frequency": 2
+    },
+    {
+      "tag": "buying car in australia nepali",
+      "frequency": 2
+    },
+    {
+      "tag": "buying car in australia malayalam",
+      "frequency": 2
+    },
+    {
+      "tag": "buying car in australia vlog",
+      "frequency": 2
+    },
+    {
+      "tag": "first car buying guide australia",
+      "frequency": 2
+    },
+    {
+      "tag": "extended warranty car",
+      "frequency": 2
+    },
+    {
+      "tag": "gap insurance",
+      "frequency": 2
+    },
+    {
+      "tag": "gap insurance totaled car",
+      "frequency": 2
+    },
+    {
+      "tag": "gap insurance explained",
+      "frequency": 2
+    },
+    {
+      "tag": "gap insurance worth it",
+      "frequency": 2
+    },
+    {
+      "tag": "gap insurance on used car",
+      "frequency": 2
+    },
+    {
+      "tag": "how to buy a car from auction in australia",
+      "frequency": 2
+    },
+    {
+      "tag": "dealership finance",
+      "frequency": 2
+    },
+    {
+      "tag": "dealership finance manager",
+      "frequency": 2
+    },
+    {
+      "tag": "auto loan tips",
+      "frequency": 2
+    },
+    {
+      "tag": "australian car dealership",
+      "frequency": 2
+    },
+    {
+      "tag": "australian car dealer",
+      "frequency": 2
+    },
+    {
+      "tag": "car interest rates explained",
+      "frequency": 2
+    },
+    {
+      "tag": "car interest rates today",
+      "frequency": 2
+    },
+    {
+      "tag": "car interest rates going down",
+      "frequency": 2
+    },
+    {
+      "tag": "car interest rates right now",
+      "frequency": 2
+    },
+    {
+      "tag": "car interest rates 2024",
+      "frequency": 2
+    },
+    {
+      "tag": "car interest rates sbi",
+      "frequency": 2
+    },
+    {
+      "tag": "car loan calculator",
+      "frequency": 2
+    },
+    {
+      "tag": "car loan calculator formula",
+      "frequency": 2
+    },
+    {
+      "tag": "car finance in australia",
+      "frequency": 2
+    },
+    {
+      "tag": "car salesman tips and tricks",
+      "frequency": 2
+    },
+    {
+      "tag": "car salesman tips",
+      "frequency": 2
+    },
+    {
+      "tag": "dealer add ons",
+      "frequency": 2
+    },
+    {
+      "tag": "dealership tricks",
+      "frequency": 2
+    },
+    {
+      "tag": "drive away prices",
+      "frequency": 1
+    },
+    {
+      "tag": "drive away price action",
+      "frequency": 1
+    },
+    {
+      "tag": "drive away price in india",
+      "frequency": 1
+    },
+    {
+      "tag": "drive away price in philippines",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease ev australia",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease ev australia pros and cons",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease ev",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease ev australia 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease hybrid australia",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease ev australia 2026",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease australia",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease explained",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease vs car loan australia",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease review australia",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease australia pros and cons",
+      "frequency": 1
+    },
+    {
+      "tag": "novated lease vs car loan",
+      "frequency": 1
+    },
+    {
+      "tag": "pf office",
+      "frequency": 1
+    },
+    {
+      "tag": "f office asteroid",
+      "frequency": 1
+    },
+    {
+      "tag": "f officer peterson",
+      "frequency": 1
+    },
+    {
+      "tag": "f & a",
+      "frequency": 1
+    },
+    {
+      "tag": "false the office",
+      "frequency": 1
+    },
+    {
+      "tag": "f and o",
+      "frequency": 1
+    },
+    {
+      "tag": "finance manager dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "finance manager car dealer interview",
+      "frequency": 1
+    },
+    {
+      "tag": "finance manager at dealership gets busted",
+      "frequency": 1
+    },
+    {
+      "tag": "finance manager",
+      "frequency": 1
+    },
+    {
+      "tag": "finance manager job",
+      "frequency": 1
+    },
+    {
+      "tag": "car sales tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "car sales tricks and tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealers cheat",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer simulator tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "uk car dealer tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership game tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer trade in tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership financing tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "dealer finance markup kaise kare",
+      "frequency": 1
+    },
+    {
+      "tag": "dealer finance markup video",
+      "frequency": 1
+    },
+    {
+      "tag": "comparison rate explained",
+      "frequency": 1
+    },
+    {
+      "tag": "refresh rate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "frame rate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "rate comparison app",
+      "frequency": 1
+    },
+    {
+      "tag": "rate comparison website",
+      "frequency": 1
+    },
+    {
+      "tag": "polling rate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "sample rate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "frame rate comparison gaming",
+      "frequency": 1
+    },
+    {
+      "tag": "heart rate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "gold rate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "fps rate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "refresh rate comparison valorant",
+      "frequency": 1
+    },
+    {
+      "tag": "bitrate comparison",
+      "frequency": 1
+    },
+    {
+      "tag": "food rate comparison app",
+      "frequency": 1
+    },
+    {
+      "tag": "weekly car payments vs monthly",
+      "frequency": 1
+    },
+    {
+      "tag": "bi weekly car payments vs monthly",
+      "frequency": 1
+    },
+    {
+      "tag": "bi weekly car payments",
+      "frequency": 1
+    },
+    {
+      "tag": "biweekly car payment calculator",
+      "frequency": 1
+    },
+    {
+      "tag": "car buying in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "car purchase in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "buying car in australia bangla",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in explained",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in negotiation",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in value",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in with loan balance",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in process",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in tax savings",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade in canada",
+      "frequency": 1
+    },
+    {
+      "tag": "car trade insurance",
+      "frequency": 1
+    },
+    {
+      "tag": "car trading in roblox",
+      "frequency": 1
+    },
+    {
+      "tag": "automobile trade in iti",
+      "frequency": 1
+    },
+    {
+      "tag": "vehicle trade in wot",
+      "frequency": 1
+    },
+    {
+      "tag": "trade cars in gta 5 online",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty meme",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty how can i lose",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty prank call",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty prank",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty on tv",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty on used car worth it",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty rosscreations",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty for used cars",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty tesla",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty flipkart",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty on cars worth it",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty kya hai",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection for cars",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film vs ceramic coating",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film installation",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection ceramic coating",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection spray",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film tesla model y",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film test",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection wrap",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film for cars",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection hub",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film self healing",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film motorcycle",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance coverage",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance for tesla",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance explained uk",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance refund",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance canada",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance through dealer",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance claim",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance quote",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance cost",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer negotiation",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer negotiation recording",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer negotiation strategies",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer negotiation live",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer negotiation india",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership negotiation",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership negotiation undercover",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership negotiation live",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership negotiation uk",
+      "frequency": 1
+    },
+    {
+      "tag": "car sales negotiation",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesman negotiation",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer bargaining tips",
+      "frequency": 1
+    },
+    {
+      "tag": "new car dealer negotiation",
+      "frequency": 1
+    },
+    {
+      "tag": "used car negotiation",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in nte",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in gta 5",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car wash in gta 5",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in gta",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car off facebook marketplace",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in gta 5 story mode",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in forza horizon 5",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in cyberpunk 2077",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in nfs heat",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in crew motorfest",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in bloxburg",
+      "frequency": 1
+    },
+    {
+      "tag": "dealership finance managers hate when you know these 6 things",
+      "frequency": 1
+    },
+    {
+      "tag": "dealer finance",
+      "frequency": 1
+    },
+    {
+      "tag": "dealer finance office",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership finance manager",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership finance training",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership finance",
+      "frequency": 1
+    },
+    {
+      "tag": "bajaj finance dealership kaise le",
+      "frequency": 1
+    },
+    {
+      "tag": "bajaj finance dealership kaise len",
+      "frequency": 1
+    },
+    {
+      "tag": "dealer finance loans",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan trap",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan trap explained",
+      "frequency": 1
+    },
+    {
+      "tag": "car payment trap",
+      "frequency": 1
+    },
+    {
+      "tag": "new car loan trap",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan strategy",
+      "frequency": 1
+    },
+    {
+      "tag": "car finance rules",
+      "frequency": 1
+    },
+    {
+      "tag": "buying a new car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "buying a car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "buying a used car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "things to check when buying a used car in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan crisis",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan with bad credit",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan defaults",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan process",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan interest rate calculator",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan calculator app",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan kya hota hai",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan from bank",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan delinquency",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan tamil",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan charge off dialog",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan off robi",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice car explained australia",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice car",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice car uk",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice car uk examples",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice car uk nhs",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice car scheme",
+      "frequency": 1
+    },
+    {
+      "tag": "best salary sacrifice car uk",
+      "frequency": 1
+    },
+    {
+      "tag": "salary sacrifice electric car uk",
+      "frequency": 1
+    },
+    {
+      "tag": "salary packaging car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "nhs salary sacrifice car lease scheme malayalam",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on car",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars in india",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars news",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on car purchase",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on car insurance",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars update",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars telugu",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars explained",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on car insurance renewal",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars tamil",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars reduced",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on car purchase input tax credit",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on car tyres",
+      "frequency": 1
+    },
+    {
+      "tag": "gst on cars news telugu",
+      "frequency": 1
+    },
+    {
+      "tag": "private vs dealer career",
+      "frequency": 1
+    },
+    {
+      "tag": "private vs dealer cars",
+      "frequency": 1
+    },
+    {
+      "tag": "private vs dealer cartoon",
+      "frequency": 1
+    },
+    {
+      "tag": "private vs dealer card",
+      "frequency": 1
+    },
+    {
+      "tag": "australian car sales",
+      "frequency": 1
+    },
+    {
+      "tag": "australia car dealer",
+      "frequency": 1
+    },
+    {
+      "tag": "australian used car market",
+      "frequency": 1
+    },
+    {
+      "tag": "australian car market",
+      "frequency": 1
+    },
+    {
+      "tag": "aussie car finance uk",
+      "frequency": 1
+    },
+    {
+      "tag": "aussie car finance reviews",
+      "frequency": 1
+    },
+    {
+      "tag": "car interest rate calculation",
+      "frequency": 1
+    },
+    {
+      "tag": "car interest rates 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "car interest rates",
+      "frequency": 1
+    },
+    {
+      "tag": "car interest rates utah",
+      "frequency": 1
+    },
+    {
+      "tag": "auto interest rates 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "auto interest rates today",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan rate calculator",
+      "frequency": 1
+    },
+    {
+      "tag": "auto interest rates by credit score",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan sbi yono",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan hdfc",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan axis bank",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan kya hota hai",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan kotak",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan navy federal",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan icici",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan process",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car loan sbi",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved auto loan hdfc",
+      "frequency": 1
+    },
+    {
+      "tag": "pre approved car finance",
+      "frequency": 1
+    },
+    {
+      "tag": "hdfc pre approved car loan offer",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator india",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator with balloon",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator with down payment",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator in tamil",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator monthly",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator emi",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator based on credit score",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator malaysia",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator online",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator honda",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator texas",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan calculator canada",
+      "frequency": 1
+    },
+    {
+      "tag": "finance and insurance officer",
+      "frequency": 1
+    },
+    {
+      "tag": "finance and insurance officer salary",
+      "frequency": 1
+    },
+    {
+      "tag": "finance and insurance officer interview questions",
+      "frequency": 1
+    },
+    {
+      "tag": "fni office car dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "fni office car dealership scene",
+      "frequency": 1
+    },
+    {
+      "tag": "fni office car dealership tycoon",
+      "frequency": 1
+    },
+    {
+      "tag": "finance office car dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer finance office",
+      "frequency": 1
+    },
+    {
+      "tag": "financing used car",
+      "frequency": 1
+    },
+    {
+      "tag": "finance dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "car finance manager",
+      "frequency": 1
+    },
+    {
+      "tag": "car finance manager training",
+      "frequency": 1
+    },
+    {
+      "tag": "auto finance manager training",
+      "frequency": 1
+    },
+    {
+      "tag": "automotive finance manager interview questions",
+      "frequency": 1
+    },
+    {
+      "tag": "auto finance manager closes",
+      "frequency": 1
+    },
+    {
+      "tag": "car finance vs lease",
+      "frequency": 1
+    },
+    {
+      "tag": "car finance or cash",
+      "frequency": 1
+    },
+    {
+      "tag": "car finance job",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy first car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy cheap car in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a used car in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in australia malayalam",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in australia sinhala",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy car in australia for international students",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy a car in australia as a student",
+      "frequency": 1
+    },
+    {
+      "tag": "how to buy car insurance in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal australia",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal private seller",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal facebook",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal at a dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal used",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal marketplace",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal when paying cash",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal over the phone",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal uk",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal with cash",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal online",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate a car deal in canada",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price at dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price with private seller",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price at dealership india",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price on facebook marketplace",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price at dealership tamil",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price at dealership uk",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price at dealership 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price at dealership telugu",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car price at dealership with cash",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate vehicle price",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate used car price at dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate new car price at dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate used car price at dealership 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car loan",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate interest rate on car loan",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate apr on car loan",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car dealer",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car deal",
+      "frequency": 1
+    },
+    {
+      "tag": "how to negotiate car prices",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan rates today",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan rates",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan rates today",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan rates 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "car financing rates",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loan rates 2026",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tips telugu",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tips and tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tips and tricks india",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tips tamil",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tips malayalam",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tips philippines",
+      "frequency": 1
+    },
+    {
+      "tag": "car financing tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car payment tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan guide",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan suggestions",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan repayment tips",
+      "frequency": 1
+    },
+    {
+      "tag": "first car loan tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan tricks tamil",
+      "frequency": 1
+    },
+    {
+      "tag": "auto loans",
+      "frequency": 1
+    },
+    {
+      "tag": "auto financing",
+      "frequency": 1
+    },
+    {
+      "tag": "lease vs buy car",
+      "frequency": 1
+    },
+    {
+      "tag": "lease vs buy car 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "renting vs buying car",
+      "frequency": 1
+    },
+    {
+      "tag": "lease vs buy electric car",
+      "frequency": 1
+    },
+    {
+      "tag": "leasing vs buying a car 2025 uk",
+      "frequency": 1
+    },
+    {
+      "tag": "lease vs buy a car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "lease or buy car for business",
+      "frequency": 1
+    },
+    {
+      "tag": "lease vs buy a car india",
+      "frequency": 1
+    },
+    {
+      "tag": "lease vs buy a car dave ramsey",
+      "frequency": 1
+    },
+    {
+      "tag": "leasing vs buying a car germany",
+      "frequency": 1
+    },
+    {
+      "tag": "leasing vs buying a car 2024 australia",
+      "frequency": 1
+    },
+    {
+      "tag": "car lease vs finance australia",
+      "frequency": 1
+    },
+    {
+      "tag": "car finance explained australia",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan interest rates 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan interest rates 2025 india",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loans",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan strategy",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan in kerala",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan deals",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan interest rates 2026",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan bank in pakistan",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan app",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan interest rates 2025 malayalam",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loans for bad credit",
+      "frequency": 1
+    },
+    {
+      "tag": "best car loan 2026",
+      "frequency": 1
+    },
+    {
+      "tag": "best car finance",
+      "frequency": 1
+    },
+    {
+      "tag": "used cars australia",
+      "frequency": 1
+    },
+    {
+      "tag": "old australian car ads",
+      "frequency": 1
+    },
+    {
+      "tag": "best used car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "second hand car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "used car market australia",
+      "frequency": 1
+    },
+    {
+      "tag": "buying used car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "used car sales australia",
+      "frequency": 1
+    },
+    {
+      "tag": "used car dealer australia",
+      "frequency": 1
+    },
+    {
+      "tag": "used car prices australia",
+      "frequency": 1
+    },
+    {
+      "tag": "used cars in australia malayalam",
+      "frequency": 1
+    },
+    {
+      "tag": "used cars in australia melbourne",
+      "frequency": 1
+    },
+    {
+      "tag": "used car business in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "new car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "cheapest new car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "best new cars australia",
+      "frequency": 1
+    },
+    {
+      "tag": "new cars australia 2026",
+      "frequency": 1
+    },
+    {
+      "tag": "new electric cars australia",
+      "frequency": 1
+    },
+    {
+      "tag": "new car reviews australia",
+      "frequency": 1
+    },
+    {
+      "tag": "byd new car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "new cars australia 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "buying new car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "toyota new car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "new car vlog australia",
+      "frequency": 1
+    },
+    {
+      "tag": "mahindra new car australia",
+      "frequency": 1
+    },
+    {
+      "tag": "new car sales australia",
+      "frequency": 1
+    },
+    {
+      "tag": "new car price in australia",
+      "frequency": 1
+    },
+    {
+      "tag": "car buying australia",
+      "frequency": 1
+    },
+    {
+      "tag": "car leasing vs buying australia",
+      "frequency": 1
+    },
+    {
+      "tag": "australia franchise",
+      "frequency": 1
+    },
+    {
+      "tag": "aussie dealerships",
+      "frequency": 1
+    },
+    {
+      "tag": "aussie dealership music",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesperson",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesman 101",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesman tips for beginners",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesman tips in hindi",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesman tips for closing",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealership tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car dealer tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesman interview tips",
+      "frequency": 1
+    },
+    {
+      "tag": "used car salesman tips",
+      "frequency": 1
+    },
+    {
+      "tag": "car salesman training",
+      "frequency": 1
+    },
+    {
+      "tag": "auto dealer",
+      "frequency": 1
+    },
+    {
+      "tag": "auto dealership",
+      "frequency": 1
+    },
+    {
+      "tag": "dealer financing",
+      "frequency": 1
+    },
+    {
+      "tag": "dealer floorplan financing",
+      "frequency": 1
+    },
+    {
+      "tag": "dealership financing",
+      "frequency": 1
+    },
+    {
+      "tag": "dealership tricks to avoid",
+      "frequency": 1
+    },
+    {
+      "tag": "dealership tips and tricks",
+      "frequency": 1
+    },
+    {
+      "tag": "dealership car buying",
+      "frequency": 1
+    },
+    {
+      "tag": "dealership car",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car until you watch this video",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car until you watch this",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car until you watch this video how to negotiate in 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car in 2025",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car until you watch this video how to negotiate in 2024",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car buy a motorcycle",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car until you watch this (car loan secrets revealed) car loan - full process",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car without watching this",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car in 2026",
+      "frequency": 1
+    },
+    {
+      "tag": "don't buy a car mark",
+      "frequency": 1
+    },
+    {
+      "tag": "do not buy a car",
+      "frequency": 1
+    },
+    {
+      "tag": "never buy a car",
+      "frequency": 1
+    },
+    {
+      "tag": "why you should not buy a car",
+      "frequency": 1
+    },
+    {
+      "tag": "car contractor",
+      "frequency": 1
+    },
+    {
+      "tag": "car contractions",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction videos",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction software",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction toys",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction cartoon",
+      "frequency": 1
+    },
+    {
+      "tag": "car contract rescission",
+      "frequency": 1
+    },
+    {
+      "tag": "car constructor",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction game",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction factory",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction time lapse",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction game play",
+      "frequency": 1
+    },
+    {
+      "tag": "car construction dusia",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan contract",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan agreement",
+      "frequency": 1
+    },
+    {
+      "tag": "car loan payments",
+      "frequency": 1
+    },
+    {
+      "tag": "add on car loans",
+      "frequency": 1
+    },
+    {
+      "tag": "add on car loan hdfc",
+      "frequency": 1
+    },
+    {
+      "tag": "add on car loan kaise le",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance auto",
+      "frequency": 1
+    },
+    {
+      "tag": "gap insurance stolen car",
+      "frequency": 1
+    },
+    {
+      "tag": "how does gap car insurance work",
+      "frequency": 1
+    },
+    {
+      "tag": "gap car insurance explained",
+      "frequency": 1
+    },
+    {
+      "tag": "caredge gap insurance",
+      "frequency": 1
+    },
+    {
+      "tag": "carmax gap insurance",
+      "frequency": 1
+    },
+    {
+      "tag": "extended car warranty scams",
+      "frequency": 1
+    },
+    {
+      "tag": "extended car warranty meme",
+      "frequency": 1
+    },
+    {
+      "tag": "extended car warranty reviews",
+      "frequency": 1
+    },
+    {
+      "tag": "extended car warranty prank",
+      "frequency": 1
+    },
+    {
+      "tag": "extended car warranty audio",
+      "frequency": 1
+    },
+    {
+      "tag": "extended car warranty uk",
+      "frequency": 1
+    },
+    {
+      "tag": "extended car warranties are they worth it",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty on car malayalam",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty on cars in tamil",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty on car lena chahiye ya nahi",
+      "frequency": 1
+    },
+    {
+      "tag": "honda extended warranty car",
+      "frequency": 1
+    },
+    {
+      "tag": "extended warranty on cars telugu",
+      "frequency": 1
+    },
+    {
+      "tag": "extended vehicle warranty",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection car",
+      "frequency": 1
+    },
+    {
+      "tag": "best paint protection for cars",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film car",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection for cars malayalam",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection film car wash",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protector for car",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection coating for cars",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection spray for cars",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection treatment for car",
+      "frequency": 1
+    },
+    {
+      "tag": "paint protection for new car",
+      "frequency": 1
+    },
+    {
+      "tag": "car paint protection film price in india",
+      "frequency": 1
+    },
+    {
+      "tag": "ceramic paint protection for cars",
+      "frequency": 1
+    },
+    {
+      "tag": "car paint protection at home",
+      "frequency": 1
+    },
+    {
+      "tag": "car paint protection film removal",
+      "frequency": 1
+    },
+    {
+      "tag": "tyre and rim insurance",
+      "frequency": 1
+    },
+    {
+      "tag": "tyre and rim",
+      "frequency": 1
+    },
+    {
+      "tag": "tyre and wheel alignment business",
+      "frequency": 1
+    },
+    {
+      "tag": "tyre and wheel",
+      "frequency": 1
+    },
+    {
+      "tag": "tyre center",
+      "frequency": 1
+    },
+    {
+      "tag": "tyre worn out",
+      "frequency": 1
+    }
+  ]
+}

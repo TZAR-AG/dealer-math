@@ -1,0 +1,50 @@
+{
+  "text": "Then the F and I office. Watch what happens.",
+  "words": [
+    {
+      "word": "Then",
+      "timeline_start": 0.07,
+      "timeline_end": 0.221
+    },
+    {
+      "word": "the",
+      "timeline_start": 0.255,
+      "timeline_end": 0.337
+    },
+    {
+      "word": "F",
+      "timeline_start": 0.418,
+      "timeline_end": 0.557
+    },
+    {
+      "word": "and",
+      "timeline_start": 0.65,
+      "timeline_end": 0.72
+    },
+    {
+      "word": "I",
+      "timeline_start": 0.813,
+      "timeline_end": 0.94
+    },
+    {
+      "word": "office.",
+      "timeline_start": 1.103,
+      "timeline_end": 1.73
+    },
+    {
+      "word": "Watch",
+      "timeline_start": 2.043,
+      "timeline_end": 2.264
+    },
+    {
+      "word": "what",
+      "timeline_start": 2.287,
+      "timeline_end": 2.38
+    },
+    {
+      "word": "happens.",
+      "timeline_start": 2.403,
+      "timeline_end": 2.891
+    }
+  ]
+}

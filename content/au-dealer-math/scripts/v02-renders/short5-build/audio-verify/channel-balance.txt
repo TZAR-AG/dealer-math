@@ -1,0 +1,10 @@
+Short 5 — channel balance verification (post mono->stereo upmix fix)
+Generated: 2026-05-05
+Full duration: 30.67s
+
+Region                              L (dB)    R (dB)    D (dB)
+OPEN bookend (t=1.0-3.0s):           -16.20    -16.20    +0.00
+MIDDLE lifted (t=10.0-12.0s):        -17.60    -17.60    +0.00
+CLOSE bookend (t=27.2-29.2s):  -16.00    -16.00    +0.00
+
+Verdict: OK (max |D| = 0.00 dB; target <= 2 dB)
